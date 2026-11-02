@@ -4,8 +4,7 @@ David L. John and Vallipuram Muthukkumarasamy, School of Information and Communi
 
 Artefact accompanying the SDLT 2026 paper. It contains the
 labelled flow panels, the complete evaluation pipeline, the pre-specified
-parameter grid, and the result files from which every number in the paper is
-generated.
+parameter grid, and the result files behind the paper's tables and figures.
 
 ## Layout
 
