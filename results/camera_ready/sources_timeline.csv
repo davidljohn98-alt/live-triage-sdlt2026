@@ -1,0 +1,5 @@
+exploit,first_exploit_tx_utc,tx_hash,first_public_report_utc,kind,report_url,note
+Qubit,2022-01-27 21:34:01,0xac7292e7d0ec8ebe1c94203d190874b2aab30592327b6cc875d00f18de6f3133,2022-01-27 22:19:28,social media,https://twitter.com/0xclaudeshannon/status/1486826216661340161,first forged deposit by the exploiter; the post voices suspicion
+Meter Passport,2022-02-05 14:22:40,0x63f37aff7e40b85b0a6b3fd414389f6011cc09b276dc8e13b6afa19061f7ed8e,2022-02-05 19:31:42,team announcement,https://twitter.com/Meter_IO/status/1490045486606139392,earliest false deposit found (upper bound); the panel's 13:11:37 flow is a genuine deposit (BscScan 0xc4d7e160...)
+Harmony Horizon,2022-06-23 11:06:46,0x27981c7289c372e601c9475e5b5466310be18ed10b59d1ac840145f6e7804c97,2022-06-23 22:43:38,social media,https://x.com/EncryptEnigma/status/1540103312397291527,first Ethereum transfer; the post voices suspicion
+Nomad,2022-08-01 21:32:31,0x61497a1a8a8659a06358e130ea590e1eed8956edbd99dbb2048cfb46850a8f17,2022-08-01 21:37:23,social media,https://twitter.com/spreekaway/status/1554219768462426115,first exploit block 15259101; the post voices suspicion; team post 23:25:01 UTC

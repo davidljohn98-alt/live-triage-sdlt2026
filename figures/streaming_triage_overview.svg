@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 788 430" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L7,3.5 L0,7 z" fill="#111111"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="788" height="430" fill="#ffffff"/>
+
+  <!-- ===== grey group boxes ===== -->
+  <rect x="12"  y="28"  width="220" height="182" rx="10" fill="#eef0f2" stroke="#aab0b6" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <rect x="284" y="28"  width="220" height="182" rx="10" fill="#eef0f2" stroke="#aab0b6" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <rect x="556" y="28"  width="220" height="182" rx="10" fill="#eef0f2" stroke="#aab0b6" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <rect x="156" y="236" width="522" height="182" rx="10" fill="#eef0f2" stroke="#aab0b6" stroke-width="1.3" stroke-dasharray="5 4"/>
+
+  <!-- ===== white boxes + labels ===== -->
+  <!-- G1 Historical exploits: three rows y40 / y98 / y156 -->
+  <rect x="26" y="40" width="192" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="122" y="59" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Labelled past exploits</text>
+  <text x="122" y="74" text-anchor="middle" font-size="10" fill="#777777">prior exploits, pooled</text>
+  <rect x="26" y="98" width="192" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="122" y="117" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Feature construction</text>
+  <text x="122" y="132" text-anchor="middle" font-size="10" fill="#777777">amounts, lag, route context</text>
+  <rect x="26" y="156" width="192" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="122" y="175" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Model training</text>
+  <text x="122" y="190" text-anchor="middle" font-size="10" fill="#777777">seven models, seed-fixed</text>
+
+  <!-- G2 Streaming replay: two rows, vertically centred (y60 / y134, gap 30, margins 32) -->
+  <rect x="298" y="60" width="192" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="394" y="79" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Unseen exploit stream</text>
+  <text x="394" y="94" text-anchor="middle" font-size="10" fill="#777777">flows in observation order</text>
+  <rect x="298" y="134" width="192" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="394" y="153" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Per-flow scoring</text>
+  <text x="394" y="168" text-anchor="middle" font-size="10" fill="#777777">no labels, no known addresses</text>
+  <rect x="570" y="60" width="192" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="666" y="79" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Fixed alarm</text>
+  <text x="666" y="94" text-anchor="middle" font-size="10" fill="#777777">preset probability threshold</text>
+  <rect x="570" y="134" width="192" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="666" y="153" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Stream-calibrated thresholds</text>
+  <text x="666" y="168" text-anchor="middle" font-size="10" fill="#777777">extreme-value, dynamic, rank</text>
+
+  <!-- Bottom Outcome measurement: labels box (left) + stacked measures (right) -->
+  <rect x="170" y="306" width="192" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="266" y="325" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Ground-truth labels</text>
+  <text x="266" y="340" text-anchor="middle" font-size="10" fill="#777777">post-hoc, evaluation only</text>
+  <rect x="443" y="248" width="205" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="545" y="267" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Alert confusion</text>
+  <text x="545" y="282" text-anchor="middle" font-size="10" fill="#777777">incident-linked and benign alerts</text>
+  <rect x="443" y="306" width="205" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="545" y="325" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Precision and recall</text>
+  <text x="545" y="340" text-anchor="middle" font-size="10" fill="#777777">per fold, model, and method</text>
+  <rect x="443" y="364" width="205" height="44" rx="6" fill="#ffffff" stroke="#8a9099" stroke-width="1.2"/>
+  <text x="545" y="383" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#222222">Detection lag</text>
+  <text x="545" y="398" text-anchor="middle" font-size="10" fill="#777777">hours to first incident-linked alert</text>
+
+  <!-- ===== arrows (black) ===== -->
+  <!-- G1 chain: past exploits -> features -> training -->
+  <line x1="122" y1="84"  x2="122" y2="96"  stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="122" y1="142" x2="122" y2="154" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- G2: stream -> scoring (vertical, centred on column) -->
+  <line x1="394" y1="104" x2="394" y2="132" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- Model training -> Per-flow scoring: one orthogonal path, jog at the group gap (x=258) -->
+  <path d="M 218 178 L 258 178 L 258 156 L 294 156" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+
+  <!-- Per-flow scoring -> both alerting methods: straight run at y156 to the stream-calibrated box; branch up to the fixed alarm -->
+  <line x1="490" y1="156" x2="568" y2="156" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <path d="M 522 156 L 522 82 L 568 82" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+
+  <!-- Modes -> outcome trunk (right margin) -->
+  <line x1="762" y1="82"  x2="769" y2="82"  stroke="#111111" stroke-width="1.8"/>
+  <line x1="762" y1="156" x2="769" y2="156" stroke="#111111" stroke-width="1.8"/>
+  <line x1="769" y1="82"  x2="769" y2="386" stroke="#111111" stroke-width="1.8"/>
+  <line x1="769" y1="270" x2="650" y2="270" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="769" y1="328" x2="650" y2="328" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="769" y1="386" x2="650" y2="386" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- Ground-truth labels -> measures (manifold, evaluation-only input) -->
+  <line x1="362" y1="328" x2="412" y2="328" stroke="#111111" stroke-width="1.8"/>
+  <line x1="412" y1="270" x2="412" y2="386" stroke="#111111" stroke-width="1.8"/>
+  <line x1="412" y1="270" x2="441" y2="270" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="412" y1="328" x2="441" y2="328" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="412" y1="386" x2="441" y2="386" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- ===== group headings ===== -->
+  <g font-size="12.5" font-weight="bold" fill="#555555" text-anchor="middle">
+    <text x="122" y="20">Historical exploits</text>
+    <text x="394" y="20">Streaming replay</text>
+    <text x="666" y="20">Alerting methods</text>
+    <text x="417" y="228">Outcome measurement</text>
+  </g>
+</svg>

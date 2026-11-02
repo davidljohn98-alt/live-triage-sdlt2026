@@ -1,0 +1,167 @@
+[
+ {
+  "flow_index": 1032,
+  "utc": "2022-08-01 07:49",
+  "score": 0.1368,
+  "incident_linked": 0,
+  "top_factors": "amount 43%, route 41%, address 13%",
+  "shap_route": -0.15907,
+  "shap_amount": -0.16427,
+  "shap_timing": 0.01151,
+  "shap_address": -0.05135
+ },
+ {
+  "flow_index": 2339,
+  "utc": "2022-08-01 19:50",
+  "score": 0.1366,
+  "incident_linked": 1,
+  "top_factors": "route 65%, amount 33%, address 1%",
+  "shap_route": -0.23558,
+  "shap_amount": -0.1206,
+  "shap_timing": -0.00321,
+  "shap_address": -0.00401
+ },
+ {
+  "flow_index": 2340,
+  "utc": "2022-08-01 19:51",
+  "score": 0.1366,
+  "incident_linked": 1,
+  "top_factors": "route 65%, amount 33%, address 1%",
+  "shap_route": -0.23568,
+  "shap_amount": -0.12047,
+  "shap_timing": -0.00321,
+  "shap_address": -0.00405
+ },
+ {
+  "flow_index": 2345,
+  "utc": "2022-08-01 19:58",
+  "score": 0.1391,
+  "incident_linked": 1,
+  "top_factors": "route 65%, amount 33%, timing 1%",
+  "shap_route": -0.23464,
+  "shap_amount": -0.11982,
+  "shap_timing": -0.00323,
+  "shap_address": -0.00322
+ },
+ {
+  "flow_index": 2429,
+  "utc": "2022-08-01 21:06",
+  "score": 0.175,
+  "incident_linked": 1,
+  "top_factors": "amount 39%, route 36%, address 21%",
+  "shap_route": -0.12539,
+  "shap_amount": -0.13591,
+  "shap_timing": 0.01076,
+  "shap_address": -0.07447
+ },
+ {
+  "flow_index": 2453,
+  "utc": "2022-08-01 21:32",
+  "score": 0.208,
+  "incident_linked": 1,
+  "top_factors": "route 58%, amount 40%, timing 1%",
+  "shap_route": -0.17073,
+  "shap_amount": -0.11826,
+  "shap_timing": -0.00361,
+  "shap_address": 0.00057
+ },
+ {
+  "flow_index": 2462,
+  "utc": "2022-08-01 21:42",
+  "score": 0.1675,
+  "incident_linked": 1,
+  "top_factors": "amount 40%, route 36%, address 23%",
+  "shap_route": -0.12071,
+  "shap_amount": -0.13712,
+  "shap_timing": 0.00308,
+  "shap_address": -0.07774
+ },
+ {
+  "flow_index": 2466,
+  "utc": "2022-08-01 21:46",
+  "score": 0.1955,
+  "incident_linked": 1,
+  "top_factors": "route 58%, amount 40%, timing 1%",
+  "shap_route": -0.17648,
+  "shap_amount": -0.1225,
+  "shap_timing": -0.00359,
+  "shap_address": -0.00196
+ },
+ {
+  "flow_index": 2476,
+  "utc": "2022-08-01 21:51",
+  "score": 0.1675,
+  "incident_linked": 1,
+  "top_factors": "amount 41%, route 36%, address 23%",
+  "shap_route": -0.12021,
+  "shap_amount": -0.13796,
+  "shap_timing": 0.00291,
+  "shap_address": -0.07724
+ },
+ {
+  "flow_index": 2496,
+  "utc": "2022-08-01 22:16",
+  "score": 0.16,
+  "incident_linked": 1,
+  "top_factors": "amount 47%, route 31%, address 21%",
+  "shap_route": -0.10793,
+  "shap_amount": -0.16473,
+  "shap_timing": 0.00602,
+  "shap_address": -0.07336
+ },
+ {
+  "flow_index": 2514,
+  "utc": "2022-08-01 22:22",
+  "score": 0.2255,
+  "incident_linked": 1,
+  "top_factors": "route 50%, amount 48%, timing 1%",
+  "shap_route": -0.13773,
+  "shap_amount": -0.13301,
+  "shap_timing": -0.00352,
+  "shap_address": -0.00026
+ },
+ {
+  "flow_index": 2524,
+  "utc": "2022-08-01 22:24",
+  "score": 0.2719,
+  "incident_linked": 0,
+  "top_factors": "amount 54%, route 37%, address 6%",
+  "shap_route": -0.09509,
+  "shap_amount": -0.1399,
+  "shap_timing": -0.00873,
+  "shap_address": 0.01561
+ },
+ {
+  "flow_index": 2540,
+  "utc": "2022-08-01 22:28",
+  "score": 0.16,
+  "incident_linked": 1,
+  "top_factors": "amount 48%, route 30%, address 20%",
+  "shap_route": -0.10608,
+  "shap_amount": -0.16816,
+  "shap_timing": 0.006,
+  "shap_address": -0.07177
+ },
+ {
+  "flow_index": 2569,
+  "utc": "2022-08-01 22:35",
+  "score": 0.2305,
+  "incident_linked": 1,
+  "top_factors": "route 51%, amount 48%, timing 1%",
+  "shap_route": -0.1365,
+  "shap_amount": -0.1296,
+  "shap_timing": -0.00352,
+  "shap_address": 0.0001
+ },
+ {
+  "flow_index": 2605,
+  "utc": "2022-08-01 22:43",
+  "score": 0.1575,
+  "incident_linked": 1,
+  "top_factors": "amount 49%, route 30%, address 21%",
+  "shap_route": -0.103,
+  "shap_amount": -0.16893,
+  "shap_timing": 0.0027,
+  "shap_address": -0.07327
+ }
+]

@@ -1,0 +1,210 @@
+{
+ "Qubit": {
+  "pattern": {
+   "rank": {
+    "tp_mean": 0.6,
+    "tp_min": 0,
+    "tp_max": 1,
+    "fp_mean": 0.3,
+    "fp_min": 0,
+    "fp_max": 1
+   }
+  },
+  "pattern_paced": {
+   "rank": {
+    "tp_mean": 0.3,
+    "tp_min": 0,
+    "tp_max": 1,
+    "fp_mean": 0.7,
+    "fp_min": 0,
+    "fp_max": 1
+   }
+  },
+  "full": {
+   "rank": {
+    "tp_mean": 0.6,
+    "tp_min": 0,
+    "tp_max": 1,
+    "fp_mean": 0.3,
+    "fp_min": 0,
+    "fp_max": 1
+   }
+  },
+  "full_paced": {
+   "rank": {
+    "tp_mean": 0.3,
+    "tp_min": 0,
+    "tp_max": 1,
+    "fp_mean": 0.7,
+    "fp_min": 0,
+    "fp_max": 1
+   }
+  }
+ },
+ "Meter": {
+  "pattern": {
+   "rank": {
+    "tp_mean": 0.0,
+    "tp_min": 0,
+    "tp_max": 0,
+    "fp_mean": 2.0,
+    "fp_min": 2,
+    "fp_max": 2
+   }
+  },
+  "pattern_paced": {
+   "rank": {
+    "tp_mean": 0.0,
+    "tp_min": 0,
+    "tp_max": 0,
+    "fp_mean": 2.0,
+    "fp_min": 2,
+    "fp_max": 2
+   }
+  },
+  "full": {
+   "rank": {
+    "tp_mean": 0.0,
+    "tp_min": 0,
+    "tp_max": 0,
+    "fp_mean": 2.0,
+    "fp_min": 2,
+    "fp_max": 2
+   }
+  },
+  "full_paced": {
+   "rank": {
+    "tp_mean": 0.0,
+    "tp_min": 0,
+    "tp_max": 0,
+    "fp_mean": 2.0,
+    "fp_min": 2,
+    "fp_max": 2
+   }
+  }
+ },
+ "Harmony": {
+  "pattern": {
+   "rank": {
+    "tp_mean": 0.0,
+    "tp_min": 0,
+    "tp_max": 0,
+    "fp_mean": 4.0,
+    "fp_min": 4,
+    "fp_max": 4
+   }
+  },
+  "pattern_paced": {
+   "rank": {
+    "tp_mean": 0.0,
+    "tp_min": 0,
+    "tp_max": 0,
+    "fp_mean": 4.0,
+    "fp_min": 4,
+    "fp_max": 4
+   }
+  },
+  "full": {
+   "rank": {
+    "tp_mean": 0.0,
+    "tp_min": 0,
+    "tp_max": 0,
+    "fp_mean": 4.0,
+    "fp_min": 4,
+    "fp_max": 4
+   }
+  },
+  "full_paced": {
+   "rank": {
+    "tp_mean": 0.0,
+    "tp_min": 0,
+    "tp_max": 0,
+    "fp_mean": 4.0,
+    "fp_min": 4,
+    "fp_max": 4
+   }
+  }
+ },
+ "Nomad": {
+  "pattern": {
+   "rank": {
+    "tp_mean": 0.2,
+    "tp_min": 0,
+    "tp_max": 1,
+    "fp_mean": 7.0,
+    "fp_min": 7,
+    "fp_max": 7
+   },
+   "evt": {
+    "tp_mean": 3.8,
+    "tp_min": 1,
+    "tp_max": 7,
+    "fp_mean": 8.0,
+    "fp_min": 8,
+    "fp_max": 8
+   }
+  },
+  "pattern_paced": {
+   "rank": {
+    "tp_mean": 0.9,
+    "tp_min": 0,
+    "tp_max": 3,
+    "fp_mean": 6.7,
+    "fp_min": 4,
+    "fp_max": 7
+   },
+   "evt": {
+    "tp_mean": 3.3,
+    "tp_min": 1,
+    "tp_max": 7,
+    "fp_mean": 7.8,
+    "fp_min": 6,
+    "fp_max": 8
+   }
+  },
+  "full": {
+   "rank": {
+    "tp_mean": 0.4,
+    "tp_min": 0,
+    "tp_max": 1,
+    "fp_mean": 7.0,
+    "fp_min": 7,
+    "fp_max": 7
+   },
+   "evt": {
+    "tp_mean": 3.9,
+    "tp_min": 1,
+    "tp_max": 7,
+    "fp_mean": 8.0,
+    "fp_min": 8,
+    "fp_max": 8
+   }
+  },
+  "full_paced": {
+   "rank": {
+    "tp_mean": 1.1,
+    "tp_min": 0,
+    "tp_max": 3,
+    "fp_mean": 6.7,
+    "fp_min": 4,
+    "fp_max": 7
+   },
+   "evt": {
+    "tp_mean": 3.5,
+    "tp_min": 1,
+    "tp_max": 7,
+    "fp_mean": 7.8,
+    "fp_min": 6,
+    "fp_max": 8
+   }
+  }
+ },
+ "control_features": {
+  "n": 20366,
+  "amount": 0,
+  "lag": 0,
+  "chains": {
+   "ethereum": 20366
+  }
+ }
+}

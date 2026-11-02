@@ -1,0 +1,468 @@
+{
+ "seed": {
+  "ET": [
+   {
+    "seed": 42,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     17927,
+     27
+    ]
+   },
+   {
+    "seed": 43,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     17927,
+     27
+    ]
+   },
+   {
+    "seed": 44,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     17927,
+     27
+    ]
+   },
+   {
+    "seed": 45,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     17921,
+     27
+    ]
+   },
+   {
+    "seed": 46,
+    "source": [
+     8895,
+     15
+    ],
+    "two_record": [
+     17791,
+     28
+    ]
+   },
+   {
+    "seed": 47,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     20,
+     27
+    ]
+   },
+   {
+    "seed": 48,
+    "source": [
+     8888,
+     15
+    ],
+    "two_record": [
+     17791,
+     28
+    ]
+   },
+   {
+    "seed": 49,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     27697,
+     27
+    ]
+   },
+   {
+    "seed": 50,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     683,
+     27
+    ]
+   },
+   {
+    "seed": 51,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     20,
+     27
+    ]
+   }
+  ],
+  "RF": [
+   {
+    "seed": 42,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     27697,
+     27
+    ]
+   },
+   {
+    "seed": 43,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     27697,
+     27
+    ]
+   },
+   {
+    "seed": 44,
+    "source": [
+     11,
+     17
+    ],
+    "two_record": [
+     7009,
+     33
+    ]
+   },
+   {
+    "seed": 45,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     0,
+     27
+    ]
+   },
+   {
+    "seed": 46,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     27697,
+     27
+    ]
+   },
+   {
+    "seed": 47,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     20,
+     27
+    ]
+   },
+   {
+    "seed": 48,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     14279,
+     27
+    ]
+   },
+   {
+    "seed": 49,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     27697,
+     27
+    ]
+   },
+   {
+    "seed": 50,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     17927,
+     27
+    ]
+   },
+   {
+    "seed": 51,
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     27696,
+     27
+    ]
+   }
+  ],
+  "GB": [
+   {
+    "seed": 42,
+    "source": [
+     10,
+     13
+    ],
+    "two_record": [
+     23,
+     24
+    ]
+   },
+   {
+    "seed": 43,
+    "source": [
+     2,
+     5
+    ],
+    "two_record": [
+     4,
+     10
+    ]
+   },
+   {
+    "seed": 44,
+    "source": [
+     2,
+     5
+    ],
+    "two_record": [
+     4,
+     10
+    ]
+   },
+   {
+    "seed": 45,
+    "source": [
+     2,
+     5
+    ],
+    "two_record": [
+     4,
+     10
+    ]
+   },
+   {
+    "seed": 46,
+    "source": [
+     10,
+     13
+    ],
+    "two_record": [
+     23,
+     24
+    ]
+   },
+   {
+    "seed": 47,
+    "source": [
+     3,
+     14
+    ],
+    "two_record": [
+     7,
+     25
+    ]
+   },
+   {
+    "seed": 48,
+    "source": [
+     10,
+     13
+    ],
+    "two_record": [
+     23,
+     24
+    ]
+   },
+   {
+    "seed": 49,
+    "source": [
+     2,
+     8
+    ],
+    "two_record": [
+     4,
+     15
+    ]
+   },
+   {
+    "seed": 50,
+    "source": [
+     10,
+     13
+    ],
+    "two_record": [
+     21677,
+     24
+    ]
+   },
+   {
+    "seed": 51,
+    "source": [
+     6,
+     8
+    ],
+    "two_record": [
+     13,
+     15
+    ]
+   }
+  ]
+ },
+ "order": {
+  "ET": {
+   "chrono": {
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     17927,
+     27
+    ]
+   },
+   "meter-first": {
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     17920,
+     27
+    ]
+   },
+   "meter-last": {
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     27697,
+     27
+    ]
+   },
+   "reversed": {
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     20,
+     27
+    ]
+   }
+  },
+  "RF": {
+   "chrono": {
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     27697,
+     27
+    ]
+   },
+   "meter-first": {
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     14847,
+     27
+    ]
+   },
+   "meter-last": {
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     27697,
+     27
+    ]
+   },
+   "reversed": {
+    "source": [
+     11,
+     14
+    ],
+    "two_record": [
+     27697,
+     27
+    ]
+   }
+  },
+  "GB": {
+   "chrono": {
+    "source": [
+     10,
+     13
+    ],
+    "two_record": [
+     23,
+     24
+    ]
+   },
+   "meter-first": {
+    "source": [
+     2,
+     5
+    ],
+    "two_record": [
+     4,
+     10
+    ]
+   },
+   "meter-last": {
+    "source": [
+     8883,
+     8
+    ],
+    "two_record": [
+     9,
+     15
+    ]
+   },
+   "reversed": {
+    "source": [
+     2,
+     5
+    ],
+    "two_record": [
+     4,
+     10
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "gb_orders": {
+  "chrono": {
+   "evt": 10,
+   "npdt": 16,
+   "rank": 13,
+   "max": 0.004
+  },
+  "rev": {
+   "evt": 2,
+   "npdt": 5,
+   "rank": 5,
+   "max": 0.002
+  },
+  "meter-first": {
+   "evt": 2,
+   "npdt": 5,
+   "rank": 5,
+   "max": 0.003
+  },
+  "nomad-first": {
+   "evt": 10,
+   "npdt": 20,
+   "rank": 13,
+   "max": 0.002
+  }
+ },
+ "et_seed42": {
+  "seed": 42,
+  "alerts": 11,
+  "first": 4558,
+  "n": 20366,
+  "ni": 3054,
+  "u": 0.008056476046203367,
+  "exceed_u_in_init": 4,
+  "distinct_init": 4,
+  "distinct_all": 4,
+  "top_values": [
+   [
+    0.00806,
+    20307
+   ],
+   [
+    0.0025,
+    36
+   ],
+   [
+    0.3025,
+    15
+   ],
+   [
+    0.00422,
+    8
+   ]
+  ],
+  "alert_span": [
+   4558,
+   20024
+  ],
+  "distinct_alerted": 1,
+  "min_alerted": 0.3025,
+  "share_after_first_alert": 0.001
+ },
+ "et_seed46": {
+  "seed": 46,
+  "alerts": 8895,
+  "first": 4558,
+  "n": 20366,
+  "ni": 3054,
+  "u": 0.0053013798961004934,
+  "exceed_u_in_init": 8,
+  "distinct_init": 5,
+  "distinct_all": 5,
+  "top_values": [
+   [
+    0.0053,
+    20307
+   ],
+   [
+    0.00345,
+    28
+   ],
+   [
+    0.2975,
+    15
+   ],
+   [
+    0.0025,
+    8
+   ],
+   [
+    0.00543,
+    8
+   ]
+  ],
+  "alert_span": [
+   4558,
+   20365
+  ],
+  "distinct_alerted": 5,
+  "min_alerted": 0.0025,
+  "share_after_first_alert": 0.563
+ }
+}

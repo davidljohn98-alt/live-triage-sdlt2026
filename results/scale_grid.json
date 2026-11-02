@@ -1,0 +1,132 @@
+{
+ "multichain_2022_authentication_bypass": {
+  "GB": {
+   "linked_max": 1.4565362253563548e-05,
+   "benign_max": 0.0720166911526186,
+   "separates": false,
+   "ap": 0.05366681876493236
+  },
+  "RF": {
+   "linked_max": 0.5604842654521256,
+   "benign_max": 0.74820072235952,
+   "separates": false,
+   "ap": 0.38742463901247404
+  },
+  "LR": {
+   "linked_max": 0.4473429463630927,
+   "benign_max": 0.9975470696810372,
+   "separates": false,
+   "ap": 0.04581745708272381
+  },
+  "GNN": {
+   "linked_max": 2.8734126907255347e-08,
+   "benign_max": 0.0007482107511507,
+   "separates": false,
+   "ap": 0.03960944609532317
+  }
+ },
+ "qubit_2022_bad_business_logic": {
+  "GB": {
+   "linked_max": 0.0004990428286396,
+   "benign_max": 0.0023194844541549,
+   "separates": false,
+   "ap": 0.7240660573993908
+  },
+  "RF": {
+   "linked_max": 0.3455010577862057,
+   "benign_max": 0.178059072694599,
+   "separates": true,
+   "ap": 1.0
+  },
+  "LR": {
+   "linked_max": 0.9281579301991614,
+   "benign_max": 0.0047424912580083,
+   "separates": true,
+   "ap": 1.0
+  },
+  "GNN": {
+   "linked_max": 0.0106455378009948,
+   "benign_max": 0.9966115218099916,
+   "separates": false,
+   "ap": 0.14480057014922634
+  }
+ },
+ "meter_io_2022_bad_business_logic": {
+  "GB": {
+   "linked_max": 0.0026041155044693,
+   "benign_max": 0.0371607215755003,
+   "separates": false,
+   "ap": 0.012948164827032389
+  },
+  "RF": {
+   "linked_max": 0.511233785212142,
+   "benign_max": 0.5292422167419538,
+   "separates": false,
+   "ap": 0.03234835263631075
+  },
+  "LR": {
+   "linked_max": 0.9800212265115802,
+   "benign_max": 0.9628652987341048,
+   "separates": false,
+   "ap": 0.1791800180064405
+  },
+  "GNN": {
+   "linked_max": 0.9999992805577632,
+   "benign_max": 0.9999862742481228,
+   "separates": false,
+   "ap": 0.23959311424100155
+  }
+ },
+ "harmony_horizon_2022_private_key_leak": {
+  "GB": {
+   "linked_max": 1.6562033594023693e-05,
+   "benign_max": 0.06456639782174722,
+   "separates": false,
+   "ap": 0.04363636363636364
+  },
+  "RF": {
+   "linked_max": 0.044294033174243144,
+   "benign_max": 0.1967156850496014,
+   "separates": false,
+   "ap": 0.0449438202247191
+  },
+  "LR": {
+   "linked_max": 0.0014432015460267475,
+   "benign_max": 0.9999458906983723,
+   "separates": false,
+   "ap": 0.024743608162632654
+  },
+  "GNN": {
+   "linked_max": 3.1992966031716275e-55,
+   "benign_max": 1.576327784710857e-05,
+   "separates": false,
+   "ap": 0.024863626559183335
+  }
+ },
+ "nomad_2022_authentication_bypass": {
+  "GB": {
+   "linked_max": 0.9726020259729262,
+   "benign_max": 0.9266432673579975,
+   "separates": false,
+   "ap": 0.15145306310369303
+  },
+  "RF": {
+   "linked_max": 0.293187345767225,
+   "benign_max": 0.20636387733844458,
+   "separates": false,
+   "ap": 0.1579227810568123
+  },
+  "LR": {
+   "linked_max": 0.9999991057419638,
+   "benign_max": 0.9999992256359603,
+   "separates": false,
+   "ap": 0.1707288264940784
+  },
+  "GNN": {
+   "linked_max": 1.6497180657629656e-06,
+   "benign_max": 0.999926403735038,
+   "separates": false,
+   "ap": 0.16897208219752874
+  }
+ }
+}

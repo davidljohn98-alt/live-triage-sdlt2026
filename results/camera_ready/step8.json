@@ -1,0 +1,89 @@
+{
+ "Qubit": {
+  "false": null,
+  "true": {
+   "n": 4,
+   "flagged_mean": 5.0,
+   "flagged_min": 0,
+   "flagged_max": 14,
+   "linked_mean": 3.8,
+   "linked_max": 9,
+   "benign_mean": 1.2,
+   "benign_max": 5
+  }
+ },
+ "Meter": {
+  "false": {
+   "n": 2,
+   "flagged_mean": 9.0,
+   "flagged_min": 0,
+   "flagged_max": 18,
+   "linked_mean": 0.0,
+   "linked_max": 0,
+   "benign_mean": 9.0,
+   "benign_max": 18
+  },
+  "true": {
+   "n": 1,
+   "flagged_mean": 2.0,
+   "flagged_min": 2,
+   "flagged_max": 2,
+   "linked_mean": 2.0,
+   "linked_max": 2,
+   "benign_mean": 0.0,
+   "benign_max": 0
+  }
+ },
+ "Harmony": {
+  "false": {
+   "n": 4,
+   "flagged_mean": 5.8,
+   "flagged_min": 0,
+   "flagged_max": 10,
+   "linked_mean": 0.0,
+   "linked_max": 0,
+   "benign_mean": 5.8,
+   "benign_max": 10
+  },
+  "true": null
+ },
+ "Nomad": {
+  "false": {
+   "n": 7,
+   "flagged_mean": 2.7,
+   "flagged_min": 0,
+   "flagged_max": 11,
+   "linked_mean": 0.0,
+   "linked_max": 0,
+   "benign_mean": 2.7,
+   "benign_max": 11
+  },
+  "true": {
+   "n": 9,
+   "flagged_mean": 14.8,
+   "flagged_min": 0,
+   "flagged_max": 35,
+   "linked_mean": 14.8,
+   "linked_max": 35,
+   "benign_mean": 0.0,
+   "benign_max": 0
+  },
+  "first_evt_seed": [
+   34,
+   0
+  ]
+ },
+ "NoExploit": {
+  "false": {
+   "n": 14,
+   "flagged_mean": 3.4,
+   "flagged_min": 0,
+   "flagged_max": 10,
+   "linked_mean": 0.0,
+   "linked_max": 0,
+   "benign_mean": 3.4,
+   "benign_max": 10
+  },
+  "true": null
+ }
+}

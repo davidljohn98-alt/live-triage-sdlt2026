@@ -1,0 +1,198 @@
+{
+ "paper_40732": {
+  "n": 40732,
+  "events": 20366,
+  "models": {
+   "GB": {
+    "max": 0.004,
+    "tau05": 0,
+    "evt": 23,
+    "npdt": 32,
+    "rank": 24,
+    "rank1": 40
+   },
+   "RF": {
+    "max": 0.268,
+    "tau05": 0,
+    "evt": 27697,
+    "npdt": 30,
+    "rank": 27,
+    "rank1": 30
+   },
+   "ET": {
+    "max": 0.302,
+    "tau05": 0,
+    "evt": 17927,
+    "npdt": 30,
+    "rank": 27,
+    "rank1": 30
+   },
+   "LR": {
+    "max": 0.009,
+    "tau05": 0,
+    "evt": 0,
+    "npdt": 0,
+    "rank": 0,
+    "rank1": 0
+   },
+   "MLP": {
+    "max": 0.002,
+    "tau05": 0,
+    "evt": 30,
+    "npdt": 54,
+    "rank": 35,
+    "rank1": 118
+   },
+   "IF": {
+    "max": 0.375,
+    "tau05": 0,
+    "evt": 0,
+    "npdt": 30,
+    "rank": 27,
+    "rank1": 30
+   },
+   "GNN": {
+    "max": 0.72,
+    "tau05": 20642,
+    "evt": 0,
+    "npdt": 0,
+    "rank": 1,
+    "rank1": 1
+   }
+  },
+  "amount_rank0.1": 0,
+  "amount_rank1": 0,
+  "route_novelty": 0
+ },
+ "one_per_event_source": {
+  "n": 20366,
+  "events": 20366,
+  "models": {
+   "GB": {
+    "max": 0.004,
+    "tau05": 0,
+    "evt": 10,
+    "npdt": 16,
+    "rank": 13,
+    "rank1": 20
+   },
+   "RF": {
+    "max": 0.268,
+    "tau05": 0,
+    "evt": 11,
+    "npdt": 15,
+    "rank": 14,
+    "rank1": 15
+   },
+   "ET": {
+    "max": 0.302,
+    "tau05": 0,
+    "evt": 11,
+    "npdt": 15,
+    "rank": 14,
+    "rank1": 15
+   },
+   "LR": {
+    "max": 0.009,
+    "tau05": 0,
+    "evt": 0,
+    "npdt": 0,
+    "rank": 1,
+    "rank1": 1
+   },
+   "MLP": {
+    "max": 0.002,
+    "tau05": 0,
+    "evt": 15,
+    "npdt": 27,
+    "rank": 19,
+    "rank1": 59
+   },
+   "IF": {
+    "max": 0.375,
+    "tau05": 0,
+    "evt": 11,
+    "npdt": 15,
+    "rank": 14,
+    "rank1": 15
+   },
+   "GNN": {
+    "max": 0.7,
+    "tau05": 10323,
+    "evt": 0,
+    "npdt": 0,
+    "rank": 1,
+    "rank1": 1
+   }
+  },
+  "amount_rank0.1": 0,
+  "amount_rank1": 0,
+  "route_novelty": 0
+ },
+ "one_per_event_destination": {
+  "n": 20366,
+  "events": 20366,
+  "models": {
+   "GB": {
+    "max": 0.0,
+    "tau05": 0,
+    "evt": 0,
+    "npdt": 0,
+    "rank": 0,
+    "rank1": 0
+   },
+   "RF": {
+    "max": 0.04,
+    "tau05": 0,
+    "evt": 0,
+    "npdt": 0,
+    "rank": 0,
+    "rank1": 0
+   },
+   "ET": {
+    "max": 0.031,
+    "tau05": 0,
+    "evt": 0,
+    "npdt": 0,
+    "rank": 0,
+    "rank1": 0
+   },
+   "LR": {
+    "max": 0.001,
+    "tau05": 0,
+    "evt": 0,
+    "npdt": 636,
+    "rank": 2,
+    "rank1": 2
+   },
+   "MLP": {
+    "max": 0.0,
+    "tau05": 0,
+    "evt": 0,
+    "npdt": 0,
+    "rank": 0,
+    "rank1": 0
+   },
+   "IF": {
+    "max": 0.377,
+    "tau05": 0,
+    "evt": 0,
+    "npdt": 0,
+    "rank": 0,
+    "rank1": 0
+   },
+   "GNN": {
+    "max": 0.057,
+    "tau05": 0,
+    "evt": 0,
+    "npdt": 0,
+    "rank": 2,
+    "rank1": 2
+   }
+  },
+  "amount_rank0.1": 0,
+  "amount_rank1": 0,
+  "route_novelty": 0
+ },
+ "events_per_day": 1357.7
+}

@@ -1,0 +1,81 @@
+fold,library,model,metric,tau,TP,FP,precision,lag
+Multichain,2,GB,rank,0.99,0,118,0.0,
+Multichain,2,GB,rank,0.999,0,3,0.0,
+Multichain,2,GB,raw,0.5,0,0,0.0,
+Multichain,2,GB,raw,0.9,0,0,0.0,
+Multichain,2,RF,rank,0.99,0,128,0.0,
+Multichain,2,RF,rank,0.999,0,4,0.0,
+Multichain,2,RF,raw,0.5,380,596,0.389,0
+Multichain,2,RF,raw,0.9,0,0,0.0,
+Multichain,2,ET,rank,0.99,0,128,0.0,
+Multichain,2,ET,rank,0.999,0,4,0.0,
+Multichain,2,ET,raw,0.5,0,136,0.0,
+Multichain,2,ET,raw,0.9,0,0,0.0,
+Multichain,2,LR,rank,0.99,0,146,0.0,
+Multichain,2,LR,rank,0.999,0,20,0.0,
+Multichain,2,LR,raw,0.5,0,5782,0.0,
+Multichain,2,LR,raw,0.9,0,467,0.0,
+Qubit,3,GB,rank,0.99,2,1,0.667,0
+Qubit,3,GB,rank,0.999,2,1,0.667,0
+Qubit,3,GB,raw,0.5,0,0,0.0,
+Qubit,3,GB,raw,0.9,0,0,0.0,
+Qubit,3,RF,rank,0.99,0,0,0.0,
+Qubit,3,RF,rank,0.999,0,0,0.0,
+Qubit,3,RF,raw,0.5,0,0,0.0,
+Qubit,3,RF,raw,0.9,0,0,0.0,
+Qubit,3,ET,rank,0.99,4,0,1.0,0
+Qubit,3,ET,rank,0.999,4,0,1.0,0
+Qubit,3,ET,raw,0.5,0,0,0.0,
+Qubit,3,ET,raw,0.9,0,0,0.0,
+Qubit,3,LR,rank,0.99,8,0,1.0,0
+Qubit,3,LR,rank,0.999,8,0,1.0,0
+Qubit,3,LR,raw,0.5,18,0,1.0,0
+Qubit,3,LR,raw,0.9,14,0,1.0,0
+Meter Passport,4,GB,rank,0.99,0,7,0.0,
+Meter Passport,4,GB,rank,0.999,0,3,0.0,
+Meter Passport,4,GB,raw,0.5,0,0,0.0,
+Meter Passport,4,GB,raw,0.9,0,0,0.0,
+Meter Passport,4,RF,rank,0.99,1,14,0.067,0
+Meter Passport,4,RF,rank,0.999,0,4,0.0,
+Meter Passport,4,RF,raw,0.5,1,12,0.077,0
+Meter Passport,4,RF,raw,0.9,0,0,0.0,
+Meter Passport,4,ET,rank,0.99,1,11,0.083,0
+Meter Passport,4,ET,rank,0.999,1,2,0.333,0
+Meter Passport,4,ET,raw,0.5,1,0,1.0,0
+Meter Passport,4,ET,raw,0.9,0,0,0.0,
+Meter Passport,4,LR,rank,0.99,1,13,0.071,0
+Meter Passport,4,LR,rank,0.999,1,6,0.143,0
+Meter Passport,4,LR,raw,0.5,1,19,0.05,0
+Meter Passport,4,LR,raw,0.9,1,19,0.05,0
+Harmony Horizon,5,GB,rank,0.99,0,5,0.0,
+Harmony Horizon,5,GB,rank,0.999,0,5,0.0,
+Harmony Horizon,5,GB,raw,0.5,0,0,0.0,
+Harmony Horizon,5,GB,raw,0.9,0,0,0.0,
+Harmony Horizon,5,RF,rank,0.99,0,6,0.0,
+Harmony Horizon,5,RF,rank,0.999,0,6,0.0,
+Harmony Horizon,5,RF,raw,0.5,0,0,0.0,
+Harmony Horizon,5,RF,raw,0.9,0,0,0.0,
+Harmony Horizon,5,ET,rank,0.99,0,6,0.0,
+Harmony Horizon,5,ET,rank,0.999,0,4,0.0,
+Harmony Horizon,5,ET,raw,0.5,0,0,0.0,
+Harmony Horizon,5,ET,raw,0.9,0,0,0.0,
+Harmony Horizon,5,LR,rank,0.99,0,10,0.0,
+Harmony Horizon,5,LR,rank,0.999,0,8,0.0,
+Harmony Horizon,5,LR,raw,0.5,0,34,0.0,
+Harmony Horizon,5,LR,raw,0.9,0,28,0.0,
+Nomad,6,GB,rank,0.99,25,4,0.862,0
+Nomad,6,GB,rank,0.999,7,3,0.7,0
+Nomad,6,GB,raw,0.5,4,1,0.8,0
+Nomad,6,GB,raw,0.9,4,1,0.8,0
+Nomad,6,RF,rank,0.99,14,5,0.737,0
+Nomad,6,RF,rank,0.999,7,4,0.636,0
+Nomad,6,RF,raw,0.5,0,0,0.0,
+Nomad,6,RF,raw,0.9,0,0,0.0,
+Nomad,6,ET,rank,0.99,14,22,0.389,0
+Nomad,6,ET,rank,0.999,9,7,0.562,0
+Nomad,6,ET,raw,0.5,0,0,0.0,
+Nomad,6,ET,raw,0.9,0,0,0.0,
+Nomad,6,LR,rank,0.99,3,51,0.056,0
+Nomad,6,LR,rank,0.999,1,14,0.067,1
+Nomad,6,LR,raw,0.5,10,1423,0.007,0
+Nomad,6,LR,raw,0.9,10,1251,0.008,0

@@ -1,0 +1,59 @@
+{
+ "ET": {
+  "featurise_ms": 2.213,
+  "transform_ms": 1.39,
+  "score_ms": 26.973,
+  "total_median_ms": 30.58,
+  "total_p95_ms": 31.149,
+  "flows_per_second": 32.7
+ },
+ "GB": {
+  "featurise_ms": 2.292,
+  "transform_ms": 1.353,
+  "score_ms": 2.29,
+  "total_median_ms": 6.307,
+  "total_p95_ms": 10.62,
+  "flows_per_second": 158.5
+ },
+ "RF": {
+  "featurise_ms": 2.21,
+  "transform_ms": 1.39,
+  "score_ms": 26.847,
+  "total_median_ms": 30.446,
+  "total_p95_ms": 31.147,
+  "flows_per_second": 32.8
+ },
+ "LR": {
+  "featurise_ms": 2.127,
+  "transform_ms": 1.26,
+  "score_ms": 0.068,
+  "total_median_ms": 3.456,
+  "total_p95_ms": 3.53,
+  "flows_per_second": 289.3
+ },
+ "MLP": {
+  "featurise_ms": 2.127,
+  "transform_ms": 1.261,
+  "score_ms": 0.067,
+  "total_median_ms": 3.458,
+  "total_p95_ms": 3.577,
+  "flows_per_second": 289.2
+ },
+ "IF": {
+  "featurise_ms": 2.139,
+  "transform_ms": 1.263,
+  "score_ms": 7.132,
+  "total_median_ms": 10.541,
+  "total_p95_ms": 12.553,
+  "flows_per_second": 94.9
+ },
+ "threshold_update_us": 0.78,
+ "block_times_s": {
+  "ethereum": 12.0,
+  "bsc": 3.0,
+  "polygon": 2.0,
+  "arbitrum": 0.25,
+  "harmony": 2.0,
+  "moonbeam": 12.0
+ }
+}

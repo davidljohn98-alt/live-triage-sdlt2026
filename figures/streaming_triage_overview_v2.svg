@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 312" font-family="Helvetica, Arial, sans-serif">
+<rect width="660" height="312" fill="white"/>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 1 L 9 5 L 0 9 z" fill="#444"/>
+</marker>
+</defs>
+
+<!-- top row: pipeline -->
+<!-- A: prior exploits -->
+<rect x="8" y="44" width="130" height="116" rx="8" fill="#f7f7f8" stroke="#555" stroke-width="1.5"/>
+<text x="73" y="72" font-size="16" font-weight="700" fill="#111" text-anchor="middle">Prior exploits</text>
+<text x="73" y="98" font-size="14" fill="#444" text-anchor="middle">labelled flows,</text>
+<text x="73" y="118" font-size="14" fill="#444" text-anchor="middle">accumulated</text>
+<text x="73" y="138" font-size="14" fill="#444" text-anchor="middle">in time order</text>
+
+<line x1="138" y1="102" x2="154" y2="102" stroke="#444" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- B: scoring -->
+<rect x="156" y="44" width="132" height="116" rx="8" fill="#f7f7f8" stroke="#555" stroke-width="1.5"/>
+<text x="222" y="72" font-size="16" font-weight="700" fill="#111" text-anchor="middle">Per-flow scoring</text>
+<text x="222" y="98" font-size="14" fill="#444" text-anchor="middle">seven models;</text>
+<text x="222" y="118" font-size="14" fill="#444" text-anchor="middle">no labels, no</text>
+<text x="222" y="138" font-size="14" fill="#444" text-anchor="middle">known addresses</text>
+
+<line x1="288" y1="102" x2="304" y2="102" stroke="#444" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- C: ALERTING LAYER (dominant) -->
+<rect x="306" y="18" width="210" height="168" rx="9" fill="#fdf6e3" stroke="#8a6d1a" stroke-width="3"/>
+<text x="411" y="46" font-size="17" font-weight="700" fill="#5a4708" text-anchor="middle">Alerting layer</text>
+<text x="411" y="66" font-size="13.5" fill="#5a4708" text-anchor="middle">policy &#928; = (Init, Decide, Update)</text>
+<line x1="324" y1="76" x2="498" y2="76" stroke="#c9b878" stroke-width="1"/>
+<text x="411" y="97" font-size="14" fill="#333" text-anchor="middle">fixed threshold &#964;</text>
+<text x="411" y="117" font-size="14" fill="#333" text-anchor="middle">extreme-value (EVT)</text>
+<text x="411" y="137" font-size="14" fill="#333" text-anchor="middle">dynamic (NPDT)</text>
+<text x="411" y="157" font-size="14" fill="#333" text-anchor="middle">online rank</text>
+<text x="411" y="177" font-size="12" fill="#8a6d1a" text-anchor="middle" font-style="italic">parameters fixed before replay</text>
+
+<line x1="516" y1="102" x2="532" y2="102" stroke="#444" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- D: alerts -->
+<rect x="534" y="44" width="118" height="116" rx="8" fill="#f7f7f8" stroke="#555" stroke-width="1.5"/>
+<text x="593" y="72" font-size="16" font-weight="700" fill="#111" text-anchor="middle">Alerts</text>
+<text x="593" y="98" font-size="14" fill="#444" text-anchor="middle">with</text>
+<text x="593" y="118" font-size="14" fill="#444" text-anchor="middle">attributions,</text>
+<text x="593" y="138" font-size="14" fill="#444" text-anchor="middle">for analyst review</text>
+
+<!-- stream annotation above B -->
+<text x="222" y="28" font-size="13" fill="#777" text-anchor="middle">unseen exploit stream</text>
+<line x1="158" y1="35" x2="286" y2="35" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+
+<!-- bottom row: evaluation -->
+<rect x="90" y="222" width="198" height="70" rx="8" fill="#ffffff" stroke="#555" stroke-width="1.5" stroke-dasharray="6,3"/>
+<text x="189" y="248" font-size="16" font-weight="700" fill="#111" text-anchor="middle">Ground-truth labels</text>
+<text x="189" y="272" font-size="14" fill="#444" text-anchor="middle">post-hoc, evaluation only</text>
+
+<line x1="288" y1="257" x2="304" y2="257" stroke="#444" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<rect x="306" y="222" width="346" height="70" rx="8" fill="#f7f7f8" stroke="#555" stroke-width="1.5"/>
+<text x="479" y="246" font-size="16" font-weight="700" fill="#111" text-anchor="middle">Outcome measures</text>
+<text x="479" y="270" font-size="14" fill="#444" text-anchor="middle">precision &#183; recall &#183; detection lag &#183; false-alarm rate</text>
+
+<!-- alerts feed outcomes -->
+<line x1="593" y1="160" x2="593" y2="220" stroke="#444" stroke-width="1.8" marker-end="url(#arr)"/>
+</svg>

@@ -1,0 +1,65 @@
+{
+ "Qubit": {
+  "linked": 18,
+  "linked_freq_pos": 0,
+  "benign": 58,
+  "benign_freq_pos": 0,
+  "alert_linked": 4,
+  "alert_linked_freq_pos": 0,
+  "alert_benign": 0,
+  "alert_benign_freq_pos": 0,
+  "zero_freq_rank": [
+   4,
+   0
+  ]
+ },
+ "Meter": {
+  "linked": 6,
+  "linked_freq_pos": 0,
+  "benign": 1562,
+  "benign_freq_pos": 20,
+  "alert_linked": 1,
+  "alert_linked_freq_pos": 0,
+  "alert_benign": 2,
+  "alert_benign_freq_pos": 0,
+  "zero_freq_rank": [
+   1,
+   5
+  ]
+ },
+ "Harmony": {
+  "linked": 12,
+  "linked_freq_pos": 0,
+  "benign": 263,
+  "benign_freq_pos": 16,
+  "alert_linked": 0,
+  "alert_linked_freq_pos": 0,
+  "alert_benign": 4,
+  "alert_benign_freq_pos": 2,
+  "zero_freq_rank": [
+   0,
+   4
+  ]
+ },
+ "Nomad": {
+  "linked": 615,
+  "linked_freq_pos": 30,
+  "benign": 3569,
+  "benign_freq_pos": 28,
+  "alert_linked": 9,
+  "alert_linked_freq_pos": 9,
+  "alert_benign": 7,
+  "alert_benign_freq_pos": 1,
+  "evt_linked_freq_pos": 13,
+  "evt_linked": 13,
+  "evt_benign_freq_pos": 1,
+  "zero_freq_rank": [
+   0,
+   6
+  ],
+  "zero_freq_evt": [
+   0,
+   7
+  ]
+ }
+}

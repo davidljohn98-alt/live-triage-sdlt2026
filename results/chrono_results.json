@@ -1,0 +1,2925 @@
+{
+  "poly_network_2021_authentication_bypass": {
+    "label": "Poly Network",
+    "n": 4841,
+    "pos": 17,
+    "base": 0.0035,
+    "trained_on": [
+      "ChainSwap"
+    ],
+    "models": {
+      "GB": {
+        "ap": 0.0063,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 40,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 200,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 253,
+            "precision": 0.0,
+            "fp_per_day": 63.25,
+            "detection_lag_days": null,
+            "alerts": 253
+          }
+        }
+      },
+      "RF": {
+        "ap": 0.0142,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 40,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 200,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 84,
+            "precision": 0.0,
+            "fp_per_day": 21.0,
+            "detection_lag_days": null,
+            "alerts": 84
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 17,
+            "FP": 3814,
+            "precision": 0.004437483685721744,
+            "fp_per_day": 953.5,
+            "detection_lag_days": 0,
+            "alerts": 3831
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 63,
+            "precision": 0.0,
+            "fp_per_day": 15.75,
+            "detection_lag_days": null,
+            "alerts": 63
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 84,
+            "precision": 0.0,
+            "fp_per_day": 21.0,
+            "detection_lag_days": null,
+            "alerts": 84
+          }
+        }
+      },
+      "LR": {
+        "ap": 0.0116,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 40,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 200,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 107,
+            "precision": 0.0,
+            "fp_per_day": 26.75,
+            "detection_lag_days": null,
+            "alerts": 107
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 16,
+            "FP": 1973,
+            "precision": 0.008044243338360985,
+            "fp_per_day": 493.25,
+            "detection_lag_days": 2,
+            "alerts": 1989
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 77,
+            "precision": 0.0,
+            "fp_per_day": 19.25,
+            "detection_lag_days": null,
+            "alerts": 77
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 86,
+            "precision": 0.0,
+            "fp_per_day": 21.5,
+            "detection_lag_days": null,
+            "alerts": 86
+          }
+        }
+      },
+      "ET": {
+        "ap": 0.0146,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 40,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 200,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 84,
+            "precision": 0.0,
+            "fp_per_day": 21.0,
+            "detection_lag_days": null,
+            "alerts": 84
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 17,
+            "FP": 3665,
+            "precision": 0.004617055947854427,
+            "fp_per_day": 916.25,
+            "detection_lag_days": 0,
+            "alerts": 3682
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 50,
+            "precision": 0.0,
+            "fp_per_day": 12.5,
+            "detection_lag_days": null,
+            "alerts": 50
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 82,
+            "precision": 0.0,
+            "fp_per_day": 20.5,
+            "detection_lag_days": null,
+            "alerts": 82
+          }
+        }
+      },
+      "MLP": {
+        "ap": 0.0037,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 40,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 200,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 0,
+            "FP": 81,
+            "precision": 0.0,
+            "fp_per_day": 20.25,
+            "detection_lag_days": null,
+            "alerts": 81
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 49,
+            "precision": 0.0,
+            "fp_per_day": 12.25,
+            "detection_lag_days": null,
+            "alerts": 49
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 37,
+            "precision": 0.0,
+            "fp_per_day": 9.25,
+            "detection_lag_days": null,
+            "alerts": 37
+          }
+        }
+      },
+      "IF": {
+        "ap": 0.0125,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 40,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 200,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 0,
+            "FP": 98,
+            "precision": 0.0,
+            "fp_per_day": 24.5,
+            "detection_lag_days": null,
+            "alerts": 98
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 45,
+            "precision": 0.0,
+            "fp_per_day": 11.25,
+            "detection_lag_days": null,
+            "alerts": 45
+          }
+        }
+      },
+      "GNN": {
+        "ap": 0.0213,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 40,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 200,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 5,
+            "precision": 0.0,
+            "fp_per_day": 1.25,
+            "detection_lag_days": null,
+            "alerts": 5
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 16,
+            "FP": 2998,
+            "precision": 0.0053085600530856005,
+            "fp_per_day": 749.5,
+            "detection_lag_days": 2,
+            "alerts": 3014
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 28,
+            "precision": 0.0,
+            "fp_per_day": 7.0,
+            "detection_lag_days": null,
+            "alerts": 28
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 14,
+            "precision": 0.0,
+            "fp_per_day": 3.5,
+            "detection_lag_days": null,
+            "alerts": 14
+          }
+        }
+      }
+    }
+  },
+  "multichain_2022_authentication_bypass": {
+    "label": "Multichain",
+    "n": 21052,
+    "pos": 382,
+    "base": 0.0181,
+    "trained_on": [
+      "ChainSwap",
+      "Poly Network"
+    ],
+    "models": {
+      "GB": {
+        "ap": 0.0537,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 30,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 150,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 382,
+            "FP": 17513,
+            "precision": 0.02134674490081028,
+            "fp_per_day": 5837.67,
+            "detection_lag_days": 0,
+            "alerts": 17895
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 122,
+            "precision": 0.0,
+            "fp_per_day": 40.67,
+            "detection_lag_days": null,
+            "alerts": 122
+          }
+        }
+      },
+      "RF": {
+        "ap": 0.3874,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 30,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 150,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 380,
+            "FP": 596,
+            "precision": 0.38934426229508196,
+            "fp_per_day": 198.67,
+            "detection_lag_days": 0,
+            "alerts": 976
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 0,
+            "FP": 108,
+            "precision": 0.0,
+            "fp_per_day": 36.0,
+            "detection_lag_days": null,
+            "alerts": 108
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 105,
+            "precision": 0.0,
+            "fp_per_day": 35.0,
+            "detection_lag_days": null,
+            "alerts": 105
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 136,
+            "precision": 0.0,
+            "fp_per_day": 45.33,
+            "detection_lag_days": null,
+            "alerts": 136
+          }
+        }
+      },
+      "LR": {
+        "ap": 0.0458,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 30,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 150,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 5782,
+            "precision": 0.0,
+            "fp_per_day": 1927.33,
+            "detection_lag_days": null,
+            "alerts": 5782
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 467,
+            "precision": 0.0,
+            "fp_per_day": 155.67,
+            "detection_lag_days": null,
+            "alerts": 467
+          },
+          "SPOT q=0.01": {
+            "TP": 0,
+            "FP": 173,
+            "precision": 0.0,
+            "fp_per_day": 57.67,
+            "detection_lag_days": null,
+            "alerts": 173
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 445,
+            "precision": 0.0,
+            "fp_per_day": 148.33,
+            "detection_lag_days": null,
+            "alerts": 445
+          }
+        }
+      },
+      "ET": {
+        "ap": 0.3874,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 30,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 150,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 136,
+            "precision": 0.0,
+            "fp_per_day": 45.33,
+            "detection_lag_days": null,
+            "alerts": 136
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 380,
+            "FP": 502,
+            "precision": 0.4308390022675737,
+            "fp_per_day": 167.33,
+            "detection_lag_days": 0,
+            "alerts": 882
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 70,
+            "precision": 0.0,
+            "fp_per_day": 23.33,
+            "detection_lag_days": null,
+            "alerts": 70
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 132,
+            "precision": 0.0,
+            "fp_per_day": 44.0,
+            "detection_lag_days": null,
+            "alerts": 132
+          }
+        }
+      },
+      "MLP": {
+        "ap": 0.0125,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 30,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 150,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 0,
+            "FP": 274,
+            "precision": 0.0,
+            "fp_per_day": 91.33,
+            "detection_lag_days": null,
+            "alerts": 274
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 33,
+            "precision": 0.0,
+            "fp_per_day": 11.0,
+            "detection_lag_days": null,
+            "alerts": 33
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 12,
+            "precision": 0.0,
+            "fp_per_day": 4.0,
+            "detection_lag_days": null,
+            "alerts": 12
+          }
+        }
+      },
+      "IF": {
+        "ap": 0.2305,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 30,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 150,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 0,
+            "FP": 468,
+            "precision": 0.0,
+            "fp_per_day": 156.0,
+            "detection_lag_days": null,
+            "alerts": 468
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 91,
+            "precision": 0.0,
+            "fp_per_day": 30.33,
+            "detection_lag_days": null,
+            "alerts": 91
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 188,
+            "precision": 0.0,
+            "fp_per_day": 62.67,
+            "detection_lag_days": null,
+            "alerts": 188
+          }
+        }
+      },
+      "GNN": {
+        "ap": 0.0396,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 30,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 150,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 0,
+            "FP": 141,
+            "precision": 0.0,
+            "fp_per_day": 47.0,
+            "detection_lag_days": null,
+            "alerts": 141
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 6,
+            "precision": 0.0,
+            "fp_per_day": 2.0,
+            "detection_lag_days": null,
+            "alerts": 6
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 30,
+            "precision": 0.0,
+            "fp_per_day": 10.0,
+            "detection_lag_days": null,
+            "alerts": 30
+          }
+        }
+      }
+    }
+  },
+  "qubit_2022_bad_business_logic": {
+    "label": "Qubit",
+    "n": 76,
+    "pos": 18,
+    "base": 0.2368,
+    "trained_on": [
+      "ChainSwap",
+      "Poly Network",
+      "Multichain"
+    ],
+    "models": {
+      "GB": {
+        "ap": 0.7241,
+        "topk": {
+          "10": {
+            "hits": 6,
+            "precision": 0.6
+          },
+          "50": {
+            "hits": 18,
+            "precision": 0.36
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 16,
+            "recall": 0.889,
+            "reviewed": 20,
+            "lag": 0
+          },
+          "50": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 76,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 4,
+            "precision": 0.0,
+            "fp_per_day": 2.0,
+            "detection_lag_days": null,
+            "alerts": 4
+          }
+        }
+      },
+      "RF": {
+        "ap": 1.0,
+        "topk": {
+          "10": {
+            "hits": 10,
+            "precision": 1.0
+          },
+          "50": {
+            "hits": 18,
+            "precision": 0.36
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 20,
+            "lag": 0
+          },
+          "50": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 76,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          }
+        }
+      },
+      "LR": {
+        "ap": 1.0,
+        "topk": {
+          "10": {
+            "hits": 10,
+            "precision": 1.0
+          },
+          "50": {
+            "hits": 18,
+            "precision": 0.36
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 20,
+            "lag": 0
+          },
+          "50": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 76,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 18,
+            "FP": 0,
+            "precision": 1.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": 0,
+            "alerts": 18
+          },
+          "tau0.9": {
+            "TP": 14,
+            "FP": 0,
+            "precision": 1.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": 0,
+            "alerts": 14
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          }
+        }
+      },
+      "ET": {
+        "ap": 1.0,
+        "topk": {
+          "10": {
+            "hits": 10,
+            "precision": 1.0
+          },
+          "50": {
+            "hits": 18,
+            "precision": 0.36
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 20,
+            "lag": 0
+          },
+          "50": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 76,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 1,
+            "FP": 0,
+            "precision": 1.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": 0,
+            "alerts": 1
+          }
+        }
+      },
+      "MLP": {
+        "ap": 1.0,
+        "topk": {
+          "10": {
+            "hits": 10,
+            "precision": 1.0
+          },
+          "50": {
+            "hits": 18,
+            "precision": 0.36
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 20,
+            "lag": 0
+          },
+          "50": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 76,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 1,
+            "FP": 0,
+            "precision": 1.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": 0,
+            "alerts": 1
+          }
+        }
+      },
+      "IF": {
+        "ap": 1.0,
+        "topk": {
+          "10": {
+            "hits": 10,
+            "precision": 1.0
+          },
+          "50": {
+            "hits": 18,
+            "precision": 0.36
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 20,
+            "lag": 0
+          },
+          "50": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 76,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          }
+        }
+      },
+      "GNN": {
+        "ap": 0.1448,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 20,
+            "lag": null
+          },
+          "50": {
+            "found": 18,
+            "recall": 1.0,
+            "reviewed": 76,
+            "lag": 1
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 54,
+            "precision": 0.0,
+            "fp_per_day": 27.0,
+            "detection_lag_days": null,
+            "alerts": 54
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 54,
+            "precision": 0.0,
+            "fp_per_day": 27.0,
+            "detection_lag_days": null,
+            "alerts": 54
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          }
+        }
+      }
+    }
+  },
+  "meter_io_2022_bad_business_logic": {
+    "label": "Meter Passport",
+    "n": 1568,
+    "pos": 6,
+    "base": 0.0038,
+    "trained_on": [
+      "ChainSwap",
+      "Poly Network",
+      "Multichain",
+      "Qubit"
+    ],
+    "models": {
+      "GB": {
+        "ap": 0.0129,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 1,
+            "precision": 0.02
+          },
+          "100": {
+            "hits": 1,
+            "precision": 0.01
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 1,
+            "recall": 0.167,
+            "reviewed": 50,
+            "lag": 0
+          },
+          "50": {
+            "found": 2,
+            "recall": 0.333,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 0,
+            "FP": 15,
+            "precision": 0.0,
+            "fp_per_day": 3.0,
+            "detection_lag_days": null,
+            "alerts": 15
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 4,
+            "precision": 0.0,
+            "fp_per_day": 0.8,
+            "detection_lag_days": null,
+            "alerts": 4
+          },
+          "NPDT": {
+            "TP": 1,
+            "FP": 9,
+            "precision": 0.1,
+            "fp_per_day": 1.8,
+            "detection_lag_days": 0,
+            "alerts": 10
+          }
+        }
+      },
+      "RF": {
+        "ap": 0.0323,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 2,
+            "precision": 0.04
+          },
+          "100": {
+            "hits": 2,
+            "precision": 0.02
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 2,
+            "recall": 0.333,
+            "reviewed": 50,
+            "lag": 0
+          },
+          "50": {
+            "found": 3,
+            "recall": 0.5,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 1,
+            "FP": 12,
+            "precision": 0.07692307692307693,
+            "fp_per_day": 2.4,
+            "detection_lag_days": 0,
+            "alerts": 13
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 2,
+            "FP": 157,
+            "precision": 0.012578616352201259,
+            "fp_per_day": 31.4,
+            "detection_lag_days": 0,
+            "alerts": 159
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 10,
+            "precision": 0.0,
+            "fp_per_day": 2.0,
+            "detection_lag_days": null,
+            "alerts": 10
+          },
+          "NPDT": {
+            "TP": 1,
+            "FP": 12,
+            "precision": 0.07692307692307693,
+            "fp_per_day": 2.4,
+            "detection_lag_days": 0,
+            "alerts": 13
+          }
+        }
+      },
+      "LR": {
+        "ap": 0.1807,
+        "topk": {
+          "10": {
+            "hits": 1,
+            "precision": 0.1
+          },
+          "50": {
+            "hits": 2,
+            "precision": 0.04
+          },
+          "100": {
+            "hits": 2,
+            "precision": 0.02
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 2,
+            "recall": 0.333,
+            "reviewed": 50,
+            "lag": 0
+          },
+          "50": {
+            "found": 3,
+            "recall": 0.5,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 1,
+            "FP": 19,
+            "precision": 0.05,
+            "fp_per_day": 3.8,
+            "detection_lag_days": 0,
+            "alerts": 20
+          },
+          "tau0.9": {
+            "TP": 1,
+            "FP": 19,
+            "precision": 0.05,
+            "fp_per_day": 3.8,
+            "detection_lag_days": 0,
+            "alerts": 20
+          },
+          "SPOT q=0.01": {
+            "TP": 1,
+            "FP": 5,
+            "precision": 0.16666666666666666,
+            "fp_per_day": 1.0,
+            "detection_lag_days": 0,
+            "alerts": 6
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 3,
+            "precision": 0.0,
+            "fp_per_day": 0.6,
+            "detection_lag_days": null,
+            "alerts": 3
+          },
+          "NPDT": {
+            "TP": 1,
+            "FP": 19,
+            "precision": 0.05,
+            "fp_per_day": 3.8,
+            "detection_lag_days": 0,
+            "alerts": 20
+          }
+        }
+      },
+      "ET": {
+        "ap": 0.1737,
+        "topk": {
+          "10": {
+            "hits": 1,
+            "precision": 0.1
+          },
+          "50": {
+            "hits": 1,
+            "precision": 0.02
+          },
+          "100": {
+            "hits": 1,
+            "precision": 0.01
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 1,
+            "recall": 0.167,
+            "reviewed": 50,
+            "lag": 0
+          },
+          "50": {
+            "found": 3,
+            "recall": 0.5,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 1,
+            "FP": 0,
+            "precision": 1.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": 0,
+            "alerts": 1
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 1,
+            "FP": 9,
+            "precision": 0.1,
+            "fp_per_day": 1.8,
+            "detection_lag_days": 0,
+            "alerts": 10
+          },
+          "SPOT q=0.001": {
+            "TP": 1,
+            "FP": 9,
+            "precision": 0.1,
+            "fp_per_day": 1.8,
+            "detection_lag_days": 0,
+            "alerts": 10
+          },
+          "NPDT": {
+            "TP": 1,
+            "FP": 18,
+            "precision": 0.05263157894736842,
+            "fp_per_day": 3.6,
+            "detection_lag_days": 0,
+            "alerts": 19
+          }
+        }
+      },
+      "MLP": {
+        "ap": 0.1934,
+        "topk": {
+          "10": {
+            "hits": 1,
+            "precision": 0.1
+          },
+          "50": {
+            "hits": 2,
+            "precision": 0.04
+          },
+          "100": {
+            "hits": 2,
+            "precision": 0.02
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 2,
+            "recall": 0.333,
+            "reviewed": 50,
+            "lag": 0
+          },
+          "50": {
+            "found": 3,
+            "recall": 0.5,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 1,
+            "FP": 3,
+            "precision": 0.25,
+            "fp_per_day": 0.6,
+            "detection_lag_days": 0,
+            "alerts": 4
+          },
+          "SPOT q=0.001": {
+            "TP": 1,
+            "FP": 3,
+            "precision": 0.25,
+            "fp_per_day": 0.6,
+            "detection_lag_days": 0,
+            "alerts": 4
+          },
+          "NPDT": {
+            "TP": 1,
+            "FP": 19,
+            "precision": 0.05,
+            "fp_per_day": 3.8,
+            "detection_lag_days": 0,
+            "alerts": 20
+          }
+        }
+      },
+      "IF": {
+        "ap": 0.0105,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 1,
+            "precision": 0.02
+          },
+          "100": {
+            "hits": 1,
+            "precision": 0.01
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 1,
+            "recall": 0.167,
+            "reviewed": 50,
+            "lag": 0
+          },
+          "50": {
+            "found": 1,
+            "recall": 0.167,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 6,
+            "FP": 316,
+            "precision": 0.018633540372670808,
+            "fp_per_day": 63.2,
+            "detection_lag_days": 0,
+            "alerts": 322
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 8,
+            "precision": 0.0,
+            "fp_per_day": 1.6,
+            "detection_lag_days": null,
+            "alerts": 8
+          },
+          "NPDT": {
+            "TP": 1,
+            "FP": 12,
+            "precision": 0.07692307692307693,
+            "fp_per_day": 2.4,
+            "detection_lag_days": 0,
+            "alerts": 13
+          }
+        }
+      },
+      "GNN": {
+        "ap": 0.2396,
+        "topk": {
+          "10": {
+            "hits": 2,
+            "precision": 0.2
+          },
+          "50": {
+            "hits": 2,
+            "precision": 0.04
+          },
+          "100": {
+            "hits": 2,
+            "precision": 0.02
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 2,
+            "recall": 0.333,
+            "reviewed": 50,
+            "lag": 0
+          },
+          "50": {
+            "found": 2,
+            "recall": 0.333,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 2,
+            "FP": 136,
+            "precision": 0.014492753623188406,
+            "fp_per_day": 27.2,
+            "detection_lag_days": 0,
+            "alerts": 138
+          },
+          "tau0.9": {
+            "TP": 2,
+            "FP": 17,
+            "precision": 0.10526315789473684,
+            "fp_per_day": 3.4,
+            "detection_lag_days": 0,
+            "alerts": 19
+          },
+          "SPOT q=0.01": {
+            "TP": 2,
+            "FP": 23,
+            "precision": 0.08,
+            "fp_per_day": 4.6,
+            "detection_lag_days": 0,
+            "alerts": 25
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 6,
+            "precision": 0.0,
+            "fp_per_day": 1.2,
+            "detection_lag_days": null,
+            "alerts": 6
+          },
+          "NPDT": {
+            "TP": 2,
+            "FP": 88,
+            "precision": 0.022222222222222223,
+            "fp_per_day": 17.6,
+            "detection_lag_days": 0,
+            "alerts": 90
+          }
+        }
+      }
+    }
+  },
+  "harmony_horizon_2022_private_key_leak": {
+    "label": "Harmony Horizon",
+    "n": 275,
+    "pos": 12,
+    "base": 0.0436,
+    "trained_on": [
+      "ChainSwap",
+      "Poly Network",
+      "Multichain",
+      "Qubit",
+      "Meter Passport"
+    ],
+    "models": {
+      "GB": {
+        "ap": 0.0436,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 50,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 250,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 12,
+            "precision": 0.0,
+            "fp_per_day": 2.4,
+            "detection_lag_days": null,
+            "alerts": 12
+          }
+        }
+      },
+      "RF": {
+        "ap": 0.0449,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 50,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 250,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 1,
+            "precision": 0.0,
+            "fp_per_day": 0.2,
+            "detection_lag_days": null,
+            "alerts": 1
+          }
+        }
+      },
+      "LR": {
+        "ap": 0.0247,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 50,
+            "lag": null
+          },
+          "50": {
+            "found": 4,
+            "recall": 0.333,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 34,
+            "precision": 0.0,
+            "fp_per_day": 6.8,
+            "detection_lag_days": null,
+            "alerts": 34
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 28,
+            "precision": 0.0,
+            "fp_per_day": 5.6,
+            "detection_lag_days": null,
+            "alerts": 28
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 28,
+            "precision": 0.0,
+            "fp_per_day": 5.6,
+            "detection_lag_days": null,
+            "alerts": 28
+          }
+        }
+      },
+      "ET": {
+        "ap": 0.0359,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 50,
+            "lag": null
+          },
+          "50": {
+            "found": 3,
+            "recall": 0.25,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 1,
+            "precision": 0.0,
+            "fp_per_day": 0.2,
+            "detection_lag_days": null,
+            "alerts": 1
+          }
+        }
+      },
+      "MLP": {
+        "ap": 0.025,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 50,
+            "lag": null
+          },
+          "50": {
+            "found": 4,
+            "recall": 0.333,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 6,
+            "precision": 0.0,
+            "fp_per_day": 1.2,
+            "detection_lag_days": null,
+            "alerts": 6
+          }
+        }
+      },
+      "IF": {
+        "ap": 0.4493,
+        "topk": {
+          "10": {
+            "hits": 5,
+            "precision": 0.5
+          },
+          "50": {
+            "hits": 9,
+            "precision": 0.18
+          },
+          "100": {
+            "hits": 12,
+            "precision": 0.12
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 7,
+            "recall": 0.583,
+            "reviewed": 50,
+            "lag": 0
+          },
+          "50": {
+            "found": 12,
+            "recall": 1.0,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 2,
+            "precision": 0.0,
+            "fp_per_day": 0.4,
+            "detection_lag_days": null,
+            "alerts": 2
+          }
+        }
+      },
+      "GNN": {
+        "ap": 0.0249,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 50,
+            "lag": null
+          },
+          "50": {
+            "found": 5,
+            "recall": 0.417,
+            "reviewed": 250,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": "skipped (n<500)",
+          "SPOT q=0.001": "skipped (n<500)",
+          "NPDT": {
+            "TP": 0,
+            "FP": 9,
+            "precision": 0.0,
+            "fp_per_day": 1.8,
+            "detection_lag_days": null,
+            "alerts": 9
+          }
+        }
+      }
+    }
+  },
+  "nomad_2022_authentication_bypass": {
+    "label": "Nomad",
+    "n": 4184,
+    "pos": 615,
+    "base": 0.147,
+    "trained_on": [
+      "ChainSwap",
+      "Poly Network",
+      "Multichain",
+      "Qubit",
+      "Meter Passport",
+      "Harmony Horizon"
+    ],
+    "models": {
+      "GB": {
+        "ap": 0.1515,
+        "topk": {
+          "10": {
+            "hits": 9,
+            "precision": 0.9
+          },
+          "50": {
+            "hits": 25,
+            "precision": 0.5
+          },
+          "100": {
+            "hits": 25,
+            "precision": 0.25
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 25,
+            "recall": 0.041,
+            "reviewed": 60,
+            "lag": 0
+          },
+          "50": {
+            "found": 28,
+            "recall": 0.046,
+            "reviewed": 300,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 4,
+            "FP": 1,
+            "precision": 0.8,
+            "fp_per_day": 0.17,
+            "detection_lag_days": 0,
+            "alerts": 5
+          },
+          "tau0.9": {
+            "TP": 4,
+            "FP": 1,
+            "precision": 0.8,
+            "fp_per_day": 0.17,
+            "detection_lag_days": 0,
+            "alerts": 5
+          },
+          "SPOT q=0.01": {
+            "TP": 599,
+            "FP": 1112,
+            "precision": 0.3500876680303916,
+            "fp_per_day": 185.33,
+            "detection_lag_days": 0,
+            "alerts": 1711
+          },
+          "SPOT q=0.001": {
+            "TP": 10,
+            "FP": 1,
+            "precision": 0.9090909090909091,
+            "fp_per_day": 0.17,
+            "detection_lag_days": 0,
+            "alerts": 11
+          },
+          "NPDT": {
+            "TP": 10,
+            "FP": 93,
+            "precision": 0.0970873786407767,
+            "fp_per_day": 15.5,
+            "detection_lag_days": 0,
+            "alerts": 103
+          }
+        }
+      },
+      "RF": {
+        "ap": 0.1579,
+        "topk": {
+          "10": {
+            "hits": 9,
+            "precision": 0.9
+          },
+          "50": {
+            "hits": 14,
+            "precision": 0.28
+          },
+          "100": {
+            "hits": 14,
+            "precision": 0.14
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 14,
+            "recall": 0.023,
+            "reviewed": 60,
+            "lag": 0
+          },
+          "50": {
+            "found": 17,
+            "recall": 0.028,
+            "reviewed": 300,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 7,
+            "FP": 1,
+            "precision": 0.875,
+            "fp_per_day": 0.17,
+            "detection_lag_days": 0,
+            "alerts": 8
+          },
+          "SPOT q=0.001": {
+            "TP": 7,
+            "FP": 1,
+            "precision": 0.875,
+            "fp_per_day": 0.17,
+            "detection_lag_days": 0,
+            "alerts": 8
+          },
+          "NPDT": {
+            "TP": 5,
+            "FP": 0,
+            "precision": 1.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": 0,
+            "alerts": 5
+          }
+        }
+      },
+      "LR": {
+        "ap": 0.1707,
+        "topk": {
+          "10": {
+            "hits": 1,
+            "precision": 0.1
+          },
+          "50": {
+            "hits": 3,
+            "precision": 0.06
+          },
+          "100": {
+            "hits": 3,
+            "precision": 0.03
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 3,
+            "recall": 0.005,
+            "reviewed": 60,
+            "lag": 1
+          },
+          "50": {
+            "found": 4,
+            "recall": 0.007,
+            "reviewed": 300,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 10,
+            "FP": 1423,
+            "precision": 0.006978367062107467,
+            "fp_per_day": 237.17,
+            "detection_lag_days": 0,
+            "alerts": 1433
+          },
+          "tau0.9": {
+            "TP": 10,
+            "FP": 1251,
+            "precision": 0.007930214115781126,
+            "fp_per_day": 208.5,
+            "detection_lag_days": 0,
+            "alerts": 1261
+          },
+          "SPOT q=0.01": {
+            "TP": 3,
+            "FP": 55,
+            "precision": 0.05172413793103448,
+            "fp_per_day": 9.17,
+            "detection_lag_days": 0,
+            "alerts": 58
+          },
+          "SPOT q=0.001": {
+            "TP": 1,
+            "FP": 18,
+            "precision": 0.05263157894736842,
+            "fp_per_day": 3.0,
+            "detection_lag_days": 1,
+            "alerts": 19
+          },
+          "NPDT": {
+            "TP": 5,
+            "FP": 149,
+            "precision": 0.032467532467532464,
+            "fp_per_day": 24.83,
+            "detection_lag_days": 0,
+            "alerts": 154
+          }
+        }
+      },
+      "ET": {
+        "ap": 0.2041,
+        "topk": {
+          "10": {
+            "hits": 9,
+            "precision": 0.9
+          },
+          "50": {
+            "hits": 14,
+            "precision": 0.28
+          },
+          "100": {
+            "hits": 14,
+            "precision": 0.14
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 14,
+            "recall": 0.023,
+            "reviewed": 60,
+            "lag": 0
+          },
+          "50": {
+            "found": 14,
+            "recall": 0.023,
+            "reviewed": 300,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 13,
+            "FP": 66,
+            "precision": 0.16455696202531644,
+            "fp_per_day": 11.0,
+            "detection_lag_days": 0,
+            "alerts": 79
+          },
+          "SPOT q=0.001": {
+            "TP": 13,
+            "FP": 2,
+            "precision": 0.8666666666666667,
+            "fp_per_day": 0.33,
+            "detection_lag_days": 0,
+            "alerts": 15
+          },
+          "NPDT": {
+            "TP": 5,
+            "FP": 2,
+            "precision": 0.7142857142857143,
+            "fp_per_day": 0.33,
+            "detection_lag_days": 0,
+            "alerts": 7
+          }
+        }
+      },
+      "MLP": {
+        "ap": 0.204,
+        "topk": {
+          "10": {
+            "hits": 2,
+            "precision": 0.2
+          },
+          "50": {
+            "hits": 2,
+            "precision": 0.04
+          },
+          "100": {
+            "hits": 4,
+            "precision": 0.04
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 3,
+            "recall": 0.005,
+            "reviewed": 60,
+            "lag": 0
+          },
+          "50": {
+            "found": 7,
+            "recall": 0.011,
+            "reviewed": 300,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 4,
+            "FP": 51,
+            "precision": 0.07272727272727272,
+            "fp_per_day": 8.5,
+            "detection_lag_days": 0,
+            "alerts": 55
+          },
+          "SPOT q=0.001": {
+            "TP": 2,
+            "FP": 0,
+            "precision": 1.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": 0,
+            "alerts": 2
+          },
+          "NPDT": {
+            "TP": 3,
+            "FP": 47,
+            "precision": 0.06,
+            "fp_per_day": 7.83,
+            "detection_lag_days": 0,
+            "alerts": 50
+          }
+        }
+      },
+      "IF": {
+        "ap": 0.1347,
+        "topk": {
+          "10": {
+            "hits": 5,
+            "precision": 0.5
+          },
+          "50": {
+            "hits": 6,
+            "precision": 0.12
+          },
+          "100": {
+            "hits": 8,
+            "precision": 0.08
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 7,
+            "recall": 0.011,
+            "reviewed": 60,
+            "lag": 0
+          },
+          "50": {
+            "found": 11,
+            "recall": 0.018,
+            "reviewed": 300,
+            "lag": 0
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 0,
+            "precision": 0.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": null,
+            "alerts": 0
+          },
+          "SPOT q=0.01": {
+            "TP": 6,
+            "FP": 45,
+            "precision": 0.11764705882352941,
+            "fp_per_day": 7.5,
+            "detection_lag_days": 0,
+            "alerts": 51
+          },
+          "SPOT q=0.001": {
+            "TP": 3,
+            "FP": 0,
+            "precision": 1.0,
+            "fp_per_day": 0.0,
+            "detection_lag_days": 0,
+            "alerts": 3
+          },
+          "NPDT": {
+            "TP": 5,
+            "FP": 24,
+            "precision": 0.1724137931034483,
+            "fp_per_day": 4.0,
+            "detection_lag_days": 0,
+            "alerts": 29
+          }
+        }
+      },
+      "GNN": {
+        "ap": 0.169,
+        "topk": {
+          "10": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "50": {
+            "hits": 0,
+            "precision": 0.0
+          },
+          "100": {
+            "hits": 0,
+            "precision": 0.0
+          }
+        },
+        "replay": {
+          "10": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 60,
+            "lag": null
+          },
+          "50": {
+            "found": 0,
+            "recall": 0.0,
+            "reviewed": 300,
+            "lag": null
+          }
+        },
+        "thresholds": {
+          "tau0.5": {
+            "TP": 0,
+            "FP": 2,
+            "precision": 0.0,
+            "fp_per_day": 0.33,
+            "detection_lag_days": null,
+            "alerts": 2
+          },
+          "tau0.9": {
+            "TP": 0,
+            "FP": 2,
+            "precision": 0.0,
+            "fp_per_day": 0.33,
+            "detection_lag_days": null,
+            "alerts": 2
+          },
+          "SPOT q=0.01": {
+            "TP": 0,
+            "FP": 37,
+            "precision": 0.0,
+            "fp_per_day": 6.17,
+            "detection_lag_days": null,
+            "alerts": 37
+          },
+          "SPOT q=0.001": {
+            "TP": 0,
+            "FP": 8,
+            "precision": 0.0,
+            "fp_per_day": 1.33,
+            "detection_lag_days": null,
+            "alerts": 8
+          },
+          "NPDT": {
+            "TP": 0,
+            "FP": 15,
+            "precision": 0.0,
+            "fp_per_day": 2.5,
+            "detection_lag_days": null,
+            "alerts": 15
+          }
+        }
+      }
+    }
+  }
+}

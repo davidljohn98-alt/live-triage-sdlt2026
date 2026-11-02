@@ -1,0 +1,450 @@
+[
+ {
+  "fold": "Qubit",
+  "model": "GB",
+  "method": "rank1pct",
+  "TP": 2,
+  "FP": 1,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "GB",
+  "method": "rank01pct",
+  "TP": 2,
+  "FP": 1,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "RF",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 0,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "RF",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 0,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "LR",
+  "method": "rank1pct",
+  "TP": 8,
+  "FP": 0,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "LR",
+  "method": "rank01pct",
+  "TP": 8,
+  "FP": 0,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "ET",
+  "method": "rank1pct",
+  "TP": 4,
+  "FP": 0,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "ET",
+  "method": "rank01pct",
+  "TP": 4,
+  "FP": 0,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "MLP",
+  "method": "rank1pct",
+  "TP": 8,
+  "FP": 0,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "MLP",
+  "method": "rank01pct",
+  "TP": 8,
+  "FP": 0,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "IF",
+  "method": "rank1pct",
+  "TP": 6,
+  "FP": 0,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "IF",
+  "method": "rank01pct",
+  "TP": 6,
+  "FP": 0,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "GNN",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 1,
+  "npos": 18
+ },
+ {
+  "fold": "Qubit",
+  "model": "GNN",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 1,
+  "npos": 18
+ },
+ {
+  "fold": "Meter",
+  "model": "GB",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 7,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "GB",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 3,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "RF",
+  "method": "rank1pct",
+  "TP": 1,
+  "FP": 14,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "RF",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 4,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "LR",
+  "method": "rank1pct",
+  "TP": 1,
+  "FP": 13,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "LR",
+  "method": "rank01pct",
+  "TP": 1,
+  "FP": 6,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "ET",
+  "method": "rank1pct",
+  "TP": 1,
+  "FP": 11,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "ET",
+  "method": "rank01pct",
+  "TP": 1,
+  "FP": 2,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "MLP",
+  "method": "rank1pct",
+  "TP": 1,
+  "FP": 12,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "MLP",
+  "method": "rank01pct",
+  "TP": 1,
+  "FP": 4,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "IF",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 12,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "IF",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 5,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "GNN",
+  "method": "rank1pct",
+  "TP": 2,
+  "FP": 12,
+  "npos": 6
+ },
+ {
+  "fold": "Meter",
+  "model": "GNN",
+  "method": "rank01pct",
+  "TP": 1,
+  "FP": 5,
+  "npos": 6
+ },
+ {
+  "fold": "Harmony",
+  "model": "GB",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 5,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "GB",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 5,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "RF",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 6,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "RF",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 6,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "LR",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 10,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "LR",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 8,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "ET",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 6,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "ET",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 4,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "MLP",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 3,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "MLP",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 3,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "IF",
+  "method": "rank1pct",
+  "TP": 1,
+  "FP": 3,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "IF",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 3,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "GNN",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 3,
+  "npos": 12
+ },
+ {
+  "fold": "Harmony",
+  "model": "GNN",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 3,
+  "npos": 12
+ },
+ {
+  "fold": "Nomad",
+  "model": "GB",
+  "method": "rank1pct",
+  "TP": 25,
+  "FP": 4,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "GB",
+  "method": "rank01pct",
+  "TP": 7,
+  "FP": 3,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "RF",
+  "method": "rank1pct",
+  "TP": 14,
+  "FP": 5,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "RF",
+  "method": "rank01pct",
+  "TP": 7,
+  "FP": 4,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "LR",
+  "method": "rank1pct",
+  "TP": 3,
+  "FP": 51,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "LR",
+  "method": "rank01pct",
+  "TP": 1,
+  "FP": 14,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "ET",
+  "method": "rank1pct",
+  "TP": 14,
+  "FP": 22,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "ET",
+  "method": "rank01pct",
+  "TP": 9,
+  "FP": 7,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "MLP",
+  "method": "rank1pct",
+  "TP": 2,
+  "FP": 25,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "MLP",
+  "method": "rank01pct",
+  "TP": 2,
+  "FP": 4,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "IF",
+  "method": "rank1pct",
+  "TP": 5,
+  "FP": 45,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "IF",
+  "method": "rank01pct",
+  "TP": 3,
+  "FP": 8,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "GNN",
+  "method": "rank1pct",
+  "TP": 0,
+  "FP": 24,
+  "npos": 615
+ },
+ {
+  "fold": "Nomad",
+  "model": "GNN",
+  "method": "rank01pct",
+  "TP": 0,
+  "FP": 11,
+  "npos": 615
+ }
+]

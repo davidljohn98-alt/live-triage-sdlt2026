@@ -1,0 +1,702 @@
+{
+ "Qubit": {
+  "n": 76,
+  "npos": 18,
+  "identical_scores": true,
+  "rank_lt": [
+   4,
+   0
+  ],
+  "rank_le": [
+   5,
+   0
+  ],
+  "stream_start": "2022-01-27 21:22:00",
+  "stream_end": "2022-01-28 03:35:57",
+  "days": 0.26,
+  "first_alert_any": "2022-01-27 21:26:42",
+  "first_alert_idx": 4,
+  "first_linked": "2022-01-27 21:22:00",
+  "last_linked": "2022-01-27 22:06:32",
+  "linked_q10_q50_q90": [
+   "2022-01-27 21:33:35",
+   "2022-01-27 21:46:44",
+   "2022-01-27 22:01:21"
+  ],
+  "first_linked_alert": "2022-01-27 21:26:42",
+  "first_linked_alert_idx": 4,
+  "lag_h_from_first_linked": 0.08,
+  "linked_arrived_by_first_linked_alert": 2,
+  "alerts": [
+   {
+    "idx": 4,
+    "t": "2022-01-27 21:26:42",
+    "linked": 1,
+    "src": "ethereum",
+    "dst": "bsc",
+    "amt": ""
+   },
+   {
+    "idx": 16,
+    "t": "2022-01-27 21:42:50",
+    "linked": 1,
+    "src": "ethereum",
+    "dst": "bsc",
+    "amt": ""
+   },
+   {
+    "idx": 60,
+    "t": "2022-01-27 22:01:02",
+    "linked": 1,
+    "src": "ethereum",
+    "dst": "bsc",
+    "amt": ""
+   },
+   {
+    "idx": 68,
+    "t": "2022-01-27 22:06:32",
+    "linked": 1,
+    "src": "ethereum",
+    "dst": "bsc",
+    "amt": ""
+   }
+  ],
+  "first5_linked": [
+   {
+    "idx": 0,
+    "t": "2022-01-27 21:22:00",
+    "ts": "2022-01-27T21:19:41+00:00",
+    "td": "2022-01-27T21:22:00+00:00",
+    "src": "ethereum",
+    "dst": "bsc",
+    "sender": "0xD01Ae1A7",
+    "rec": "",
+    "amt": "",
+    "rule": "Qubit ChainBridge deposit--proposal reconstruction (depositNonce, with source-side raw-data decode)",
+    "lag": "139"
+   },
+   {
+    "idx": 4,
+    "t": "2022-01-27 21:26:42",
+    "ts": "2022-01-27T21:23:52+00:00",
+    "td": "2022-01-27T21:26:42+00:00",
+    "src": "ethereum",
+    "dst": "bsc",
+    "sender": "0xD01Ae1A7",
+    "rec": "",
+    "amt": "",
+    "rule": "Qubit ChainBridge deposit--proposal reconstruction (depositNonce, with source-side raw-data decode)",
+    "lag": "170"
+   },
+   {
+    "idx": 8,
+    "t": "2022-01-27 21:36:32",
+    "ts": "2022-01-27T21:34:01+00:00",
+    "td": "2022-01-27T21:36:32+00:00",
+    "src": "ethereum",
+    "dst": "bsc",
+    "sender": "0xD01Ae1A7",
+    "rec": "",
+    "amt": "",
+    "rule": "Qubit ChainBridge deposit--proposal reconstruction (depositNonce, with source-side raw-data decode)",
+    "lag": "151"
+   },
+   {
+    "idx": 12,
+    "t": "2022-01-27 21:42:02",
+    "ts": "2022-01-27T21:38:09+00:00",
+    "td": "2022-01-27T21:42:02+00:00",
+    "src": "ethereum",
+    "dst": "bsc",
+    "sender": "0xD01Ae1A7",
+    "rec": "",
+    "amt": "",
+    "rule": "Qubit ChainBridge deposit--proposal reconstruction (depositNonce, with source-side raw-data decode)",
+    "lag": "233"
+   },
+   {
+    "idx": 16,
+    "t": "2022-01-27 21:42:50",
+    "ts": "2022-01-27T21:39:07+00:00",
+    "td": "2022-01-27T21:42:50+00:00",
+    "src": "ethereum",
+    "dst": "bsc",
+    "sender": "0xD01Ae1A7",
+    "rec": "",
+    "amt": "",
+    "rule": "Qubit ChainBridge deposit--proposal reconstruction (depositNonce, with source-side raw-data decode)",
+    "lag": "223"
+   }
+  ]
+ },
+ "Meter": {
+  "n": 1568,
+  "npos": 6,
+  "identical_scores": true,
+  "rank_lt": [
+   1,
+   2
+  ],
+  "rank_le": [
+   1,
+   7
+  ],
+  "stream_start": "2022-02-01 00:22:17",
+  "stream_end": "2022-02-05 16:02:34",
+  "days": 4.65,
+  "first_alert_any": "2022-02-01 02:19:40",
+  "first_alert_idx": 12,
+  "first_linked": "2022-02-05 13:11:37",
+  "last_linked": "2022-02-05 14:45:16",
+  "linked_q10_q50_q90": [
+   "2022-02-05 13:47:16",
+   "2022-02-05 14:30:59",
+   "2022-02-05 14:42:28"
+  ],
+  "first_linked_alert": "2022-02-05 14:32:48",
+  "first_linked_alert_idx": 1418,
+  "lag_h_from_first_linked": 1.35,
+  "linked_arrived_by_first_linked_alert": 4,
+  "alerts": [
+   {
+    "idx": 12,
+    "t": "2022-02-01 02:19:40",
+    "linked": 0,
+    "src": "ethereum",
+    "dst": "bsc",
+    "amt": ""
+   },
+   {
+    "idx": 185,
+    "t": "2022-02-01 15:00:09",
+    "linked": 0,
+    "src": "ethereum",
+    "dst": "bsc",
+    "amt": ""
+   },
+   {
+    "idx": 1418,
+    "t": "2022-02-05 14:32:48",
+    "linked": 1,
+    "src": "ethereum",
+    "dst": "ethereum",
+    "amt": ""
+   }
+  ],
+  "first5_linked": [
+   {
+    "idx": 1395,
+    "t": "2022-02-05 13:11:37",
+    "ts": "2022-02-05T13:11:37+00:00",
+    "td": "",
+    "src": "bsc",
+    "dst": "",
+    "sender": "0x8d3d13ca",
+    "rec": "",
+    "amt": "",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   },
+   {
+    "idx": 1411,
+    "t": "2022-02-05 14:22:55",
+    "ts": "2022-02-05T14:22:40+00:00",
+    "td": "2022-02-05T14:22:55+00:00",
+    "src": "bsc",
+    "dst": "bsc",
+    "sender": "0x8d3d13ca",
+    "rec": "",
+    "amt": "",
+    "rule": "Meter Passport ChainBridge deposit--proposal reconstruction (depositNonce + resourceID)",
+    "lag": "15"
+   },
+   {
+    "idx": 1416,
+    "t": "2022-02-05 14:29:10",
+    "ts": "2022-02-05T14:29:10+00:00",
+    "td": "",
+    "src": "bsc",
+    "dst": "",
+    "sender": "0x8d3d13ca",
+    "rec": "",
+    "amt": "",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   },
+   {
+    "idx": 1418,
+    "t": "2022-02-05 14:32:48",
+    "ts": "2022-02-05T14:27:12+00:00",
+    "td": "2022-02-05T14:32:48+00:00",
+    "src": "ethereum",
+    "dst": "ethereum",
+    "sender": "0x8d3d13ca",
+    "rec": "",
+    "amt": "",
+    "rule": "Meter Passport ChainBridge deposit--proposal reconstruction (depositNonce + resourceID)",
+    "lag": "336"
+   },
+   {
+    "idx": 1423,
+    "t": "2022-02-05 14:39:41",
+    "ts": "2022-02-05T14:39:41+00:00",
+    "td": "",
+    "src": "ethereum",
+    "dst": "",
+    "sender": "0x8d3d13ca",
+    "rec": "",
+    "amt": "",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   }
+  ]
+ },
+ "Harmony": {
+  "n": 275,
+  "npos": 12,
+  "identical_scores": true,
+  "rank_lt": [
+   0,
+   4
+  ],
+  "rank_le": [
+   0,
+   12
+  ],
+  "stream_start": "2022-06-19 00:05:30",
+  "stream_end": "2022-06-23 20:40:07",
+  "days": 4.86,
+  "first_alert_any": "2022-06-19 00:14:57",
+  "first_alert_idx": 1,
+  "first_linked": "2022-06-23 11:06:46",
+  "last_linked": "2022-06-23 11:26:07",
+  "linked_q10_q50_q90": [
+   "2022-06-23 11:08:08",
+   "2022-06-23 11:16:50",
+   "2022-06-23 11:20:48"
+  ],
+  "alerts": [
+   {
+    "idx": 1,
+    "t": "2022-06-19 00:14:57",
+    "linked": 0,
+    "src": "harmony",
+    "dst": "ethereum",
+    "amt": ""
+   },
+   {
+    "idx": 5,
+    "t": "2022-06-19 00:21:04",
+    "linked": 0,
+    "src": "ethereum",
+    "dst": "harmony",
+    "amt": ""
+   },
+   {
+    "idx": 40,
+    "t": "2022-06-19 11:08:11",
+    "linked": 0,
+    "src": "harmony",
+    "dst": "ethereum",
+    "amt": ""
+   },
+   {
+    "idx": 204,
+    "t": "2022-06-22 16:51:06",
+    "linked": 0,
+    "src": "ethereum",
+    "dst": "ethereum",
+    "amt": "200000000000000000000"
+   }
+  ],
+  "first5_linked": [
+   {
+    "idx": 253,
+    "t": "2022-06-23 11:06:46",
+    "ts": "",
+    "td": "2022-06-23T11:06:46+00:00",
+    "src": "harmony",
+    "dst": "ethereum",
+    "sender": "",
+    "rec": "0x0d043128",
+    "amt": "13100000000000000000000",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   },
+   {
+    "idx": 254,
+    "t": "2022-06-23 11:08:01",
+    "ts": "",
+    "td": "2022-06-23T11:08:01+00:00",
+    "src": "harmony",
+    "dst": "ethereum",
+    "sender": "",
+    "rec": "0x0d043128",
+    "amt": "41200000000000",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   },
+   {
+    "idx": 255,
+    "t": "2022-06-23 11:09:16",
+    "ts": "",
+    "td": "2022-06-23T11:09:16+00:00",
+    "src": "harmony",
+    "dst": "ethereum",
+    "sender": "",
+    "rec": "0x0d043128",
+    "amt": "59200000000",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   },
+   {
+    "idx": 256,
+    "t": "2022-06-23 11:13:41",
+    "ts": "",
+    "td": "2022-06-23T11:13:41+00:00",
+    "src": "harmony",
+    "dst": "ethereum",
+    "sender": "",
+    "rec": "0x0d043128",
+    "amt": "9981000000000",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   },
+   {
+    "idx": 257,
+    "t": "2022-06-23 11:14:35",
+    "ts": "",
+    "td": "2022-06-23T11:14:35+00:00",
+    "src": "harmony",
+    "dst": "ethereum",
+    "sender": "",
+    "rec": "0x0d043128",
+    "amt": "6070000000000000000000000",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   }
+  ]
+ },
+ "Nomad": {
+  "n": 4184,
+  "npos": 615,
+  "identical_scores": true,
+  "rank_lt": [
+   9,
+   7
+  ],
+  "rank_le": [
+   10,
+   13
+  ],
+  "stream_start": "2022-08-01 00:00:19",
+  "stream_end": "2022-08-09 05:39:47",
+  "days": 8.24,
+  "first_alert_any": "2022-08-01 00:02:24",
+  "first_alert_idx": 1,
+  "first_linked": "2022-08-01 04:44:51",
+  "last_linked": "2022-08-02 00:19:03",
+  "linked_q10_q50_q90": [
+   "2022-08-01 22:45:57",
+   "2022-08-01 22:54:45",
+   "2022-08-01 23:38:44"
+  ],
+  "first_linked_alert": "2022-08-01 04:44:51",
+  "first_linked_alert_idx": 447,
+  "lag_h_from_first_linked": 0.0,
+  "linked_arrived_by_first_linked_alert": 1,
+  "alerts": [
+   {
+    "idx": 1,
+    "t": "2022-08-01 00:02:24",
+    "linked": 0,
+    "src": "ethereum",
+    "dst": "moonbeam",
+    "amt": "143872009"
+   },
+   {
+    "idx": 5,
+    "t": "2022-08-01 00:05:13",
+    "linked": 0,
+    "src": "ethereum",
+    "dst": "evmos",
+    "amt": ""
+   },
+   {
+    "idx": 23,
+    "t": "2022-08-01 00:41:00",
+    "linked": 0,
+    "src": "ethereum",
+    "dst": "moonbeam",
+    "amt": "998751200"
+   },
+   {
+    "idx": 70,
+    "t": "2022-08-01 01:31:24",
+    "linked": 0,
+    "src": "ethereum",
+    "dst": "moonbeam",
+    "amt": "5000000"
+   },
+   {
+    "idx": 225,
+    "t": "2022-08-01 02:20:00",
+    "linked": 0,
+    "src": "ethereum",
+    "dst": "moonbeam",
+    "amt": "10000"
+   },
+   {
+    "idx": 447,
+    "t": "2022-08-01 04:44:51",
+    "linked": 1,
+    "src": "avalanche",
+    "dst": "ethereum",
+    "amt": "187000000087770727500"
+   },
+   {
+    "idx": 1032,
+    "t": "2022-08-01 07:49:54",
+    "linked": 0,
+    "src": "ethereum",
+    "dst": "moonbeam",
+    "amt": "8067950089"
+   },
+   {
+    "idx": 2339,
+    "t": "2022-08-01 19:50:37",
+    "linked": 1,
+    "src": "avalanche",
+    "dst": "ethereum",
+    "amt": "200488533027848471971"
+   },
+   {
+    "idx": 2345,
+    "t": "2022-08-01 19:58:24",
+    "linked": 1,
+    "src": "avalanche",
+    "dst": "ethereum",
+    "amt": "382427291669299996"
+   },
+   {
+    "idx": 2429,
+    "t": "2022-08-01 21:06:36",
+    "linked": 1,
+    "src": "ethereum",
+    "dst": "moonbeam",
+    "amt": "1000000"
+   },
+   {
+    "idx": 2453,
+    "t": "2022-08-01 21:32:31",
+    "linked": 1,
+    "src": "moonbeam",
+    "dst": "ethereum",
+    "amt": "10000000000"
+   },
+   {
+    "idx": 2462,
+    "t": "2022-08-01 21:42:36",
+    "linked": 1,
+    "src": "ethereum",
+    "dst": "moonbeam",
+    "amt": "1000000"
+   },
+   {
+    "idx": 2466,
+    "t": "2022-08-01 21:46:29",
+    "linked": 1,
+    "src": "moonbeam",
+    "dst": "ethereum",
+    "amt": "300000000"
+   },
+   {
+    "idx": 2514,
+    "t": "2022-08-01 22:22:17",
+    "linked": 1,
+    "src": "moonbeam",
+    "dst": "ethereum",
+    "amt": "200000000000000000000"
+   },
+   {
+    "idx": 2524,
+    "t": "2022-08-01 22:24:06",
+    "linked": 0,
+    "src": "moonbeam",
+    "dst": "",
+    "amt": "28142100"
+   },
+   {
+    "idx": 2569,
+    "t": "2022-08-01 22:35:18",
+    "linked": 1,
+    "src": "moonbeam",
+    "dst": "ethereum",
+    "amt": "100000000000000000000"
+   }
+  ],
+  "first5_linked": [
+   {
+    "idx": 447,
+    "t": "2022-08-01 04:44:51",
+    "ts": "",
+    "td": "2022-08-01T04:44:51+00:00",
+    "src": "avalanche",
+    "dst": "ethereum",
+    "sender": "",
+    "rec": "0xa8C83B1b",
+    "amt": "187000000087770727500",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   },
+   {
+    "idx": 2339,
+    "t": "2022-08-01 19:50:37",
+    "ts": "",
+    "td": "2022-08-01T19:50:37+00:00",
+    "src": "avalanche",
+    "dst": "ethereum",
+    "sender": "",
+    "rec": "0xa8C83B1b",
+    "amt": "200488533027848471971",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   },
+   {
+    "idx": 2340,
+    "t": "2022-08-01 19:51:46",
+    "ts": "",
+    "td": "2022-08-01T19:51:46+00:00",
+    "src": "avalanche",
+    "dst": "ethereum",
+    "sender": "",
+    "rec": "0xa8C83B1b",
+    "amt": "196683388866203563894",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   },
+   {
+    "idx": 2345,
+    "t": "2022-08-01 19:58:24",
+    "ts": "",
+    "td": "2022-08-01T19:58:24+00:00",
+    "src": "avalanche",
+    "dst": "ethereum",
+    "sender": "",
+    "rec": "0xa8C83B1b",
+    "amt": "382427291669299996",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   },
+   {
+    "idx": 2380,
+    "t": "2022-08-01 20:24:53",
+    "ts": "2022-08-01T20:24:53+00:00",
+    "td": "",
+    "src": "ethereum",
+    "dst": "",
+    "sender": "0xa8C83B1b",
+    "rec": "",
+    "amt": "1000000",
+    "rule": "single_side_observability_evidence",
+    "lag": ""
+   }
+  ],
+  "evt": {
+   "tp": 13,
+   "fp": 2,
+   "first_any": "2022-08-01 07:49:54",
+   "first_linked": "2022-08-01 19:50:37",
+   "lag_h": 15.1,
+   "all": [
+    [
+     "2022-08-01 07:49:54",
+     0
+    ],
+    [
+     "2022-08-01 19:50:37",
+     1
+    ],
+    [
+     "2022-08-01 19:51:46",
+     1
+    ],
+    [
+     "2022-08-01 19:58:24",
+     1
+    ],
+    [
+     "2022-08-01 21:06:36",
+     1
+    ],
+    [
+     "2022-08-01 21:32:31",
+     1
+    ],
+    [
+     "2022-08-01 21:42:36",
+     1
+    ],
+    [
+     "2022-08-01 21:46:29",
+     1
+    ],
+    [
+     "2022-08-01 21:51:06",
+     1
+    ],
+    [
+     "2022-08-01 22:16:30",
+     1
+    ],
+    [
+     "2022-08-01 22:22:17",
+     1
+    ],
+    [
+     "2022-08-01 22:24:06",
+     0
+    ],
+    [
+     "2022-08-01 22:28:00",
+     1
+    ],
+    [
+     "2022-08-01 22:35:18",
+     1
+    ],
+    [
+     "2022-08-01 22:43:30",
+     1
+    ]
+   ]
+  },
+  "hourly_linked": {
+   "2022-08-01 04": 1,
+   "2022-08-01 19": 3,
+   "2022-08-01 20": 1,
+   "2022-08-01 21": 17,
+   "2022-08-01 22": 298,
+   "2022-08-01 23": 292,
+   "2022-08-02 00": 3
+  }
+ },
+ "NoExploit": {
+  "n": 40732,
+  "npos": 0,
+  "identical_scores": false,
+  "rank_lt": [
+   0,
+   15
+  ],
+  "rank_le": [
+   0,
+   20380
+  ],
+  "stream_start": "2024-03-04 00:01:23",
+  "stream_end": "2024-03-18 23:59:59",
+  "days": 15.0,
+  "first_alert_any": "2024-03-05 02:12:11",
+  "first_alert_idx": 2461
+ }
+}

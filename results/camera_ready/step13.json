@@ -1,0 +1,105 @@
+{
+ "Qubit": {
+  "onset": "2022-01-27 21:34:01",
+  "public": "2022-01-27 22:19:28",
+  "n_linked": 18,
+  "linked_before_public": 18,
+  "linked_before_onset": 2,
+  "first_linked": "2022-01-27 21:22:00",
+  "last_linked": "2022-01-27 22:06:32",
+  "last_linked_to_public_min": 12.9,
+  "alerts_linked_pre_onset": [
+   "2022-01-27 21:26:42"
+  ],
+  "first_linked_alert_from_onset": "2022-01-27 21:42:50",
+  "offset_from_onset_min": 8.8,
+  "lead_on_public_min": 36.6,
+  "benign_before_first_from_onset": 0,
+  "benign_total": 0,
+  "benign_times": [],
+  "first_from_onset_tx": [
+   "0x006a8a6e58",
+   "0xd8bba15555"
+  ]
+ },
+ "Meter": {
+  "onset": "2022-02-05 14:22:40",
+  "public": "2022-02-05 19:31:42",
+  "n_linked": 6,
+  "linked_before_public": 6,
+  "linked_before_onset": 1,
+  "first_linked": "2022-02-05 13:11:37",
+  "last_linked": "2022-02-05 14:45:16",
+  "last_linked_to_public_min": 286.4,
+  "alerts_linked_pre_onset": [],
+  "first_linked_alert_from_onset": "2022-02-05 14:32:48",
+  "offset_from_onset_min": 10.1,
+  "lead_on_public_min": 298.9,
+  "benign_before_first_from_onset": 2,
+  "benign_total": 2,
+  "benign_times": [
+   "2022-02-01 02:19:40",
+   "2022-02-01 15:00:09"
+  ],
+  "first_from_onset_tx": [
+   "0x2d3987963b",
+   "0x9c6dba5c17"
+  ]
+ },
+ "Harmony": {
+  "onset": "2022-06-23 11:06:46",
+  "public": "2022-06-23 22:43:38",
+  "n_linked": 12,
+  "linked_before_public": 12,
+  "linked_before_onset": 0,
+  "first_linked": "2022-06-23 11:06:46",
+  "last_linked": "2022-06-23 11:26:07",
+  "last_linked_to_public_min": 677.5,
+  "alerts_linked_pre_onset": [],
+  "first_linked_alert_from_onset": null,
+  "offset_from_onset_min": null,
+  "lead_on_public_min": null,
+  "benign_before_first_from_onset": 0,
+  "benign_total": 4,
+  "benign_times": [
+   "2022-06-19 00:14:57",
+   "2022-06-19 00:21:04",
+   "2022-06-19 11:08:11",
+   "2022-06-22 16:51:06"
+  ]
+ },
+ "Nomad": {
+  "onset": "2022-08-01 21:32:31",
+  "public": "2022-08-01 21:37:23",
+  "n_linked": 615,
+  "linked_before_public": 11,
+  "linked_before_onset": 7,
+  "first_linked": "2022-08-01 04:44:51",
+  "last_linked": "2022-08-02 00:19:03",
+  "last_linked_to_public_min": -161.7,
+  "alerts_linked_pre_onset": [
+   "2022-08-01 04:44:51",
+   "2022-08-01 19:50:37",
+   "2022-08-01 19:58:24",
+   "2022-08-01 21:06:36"
+  ],
+  "first_linked_alert_from_onset": "2022-08-01 21:32:31",
+  "offset_from_onset_min": 0.0,
+  "lead_on_public_min": 4.9,
+  "benign_before_first_from_onset": 6,
+  "benign_total": 7,
+  "benign_times": [
+   "2022-08-01 00:02:24",
+   "2022-08-01 00:05:13",
+   "2022-08-01 00:41:00",
+   "2022-08-01 01:31:24",
+   "2022-08-01 02:20:00",
+   "2022-08-01 07:49:54",
+   "2022-08-01 22:24:06"
+  ],
+  "first_from_onset_tx": [
+   "",
+   "0xa5fe9d044e"
+  ]
+ }
+}

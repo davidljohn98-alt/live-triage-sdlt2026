@@ -1,0 +1,652 @@
+{
+ "two_record": {
+  "ET": {
+   "per_record": {
+    "evt": 11,
+    "rank": 15
+   },
+   "keyed": {
+    "evt": 17927,
+    "rank": 27
+   },
+   "keyed_equals_row_on_source": 1.0,
+   "keyed_equals_row_on_destination": 0.0
+  },
+  "RF": {
+   "per_record": {
+    "evt": 11,
+    "rank": 15
+   },
+   "keyed": {
+    "evt": 27697,
+    "rank": 27
+   },
+   "keyed_equals_row_on_source": 1.0,
+   "keyed_equals_row_on_destination": 0.0
+  }
+ },
+ "control_q": {
+  "GB": {
+   "q3": 10,
+   "q2": 10851,
+   "excesses": 7,
+   "fitted_q3": true,
+   "fitted_q2": true
+  },
+  "RF": {
+   "q3": 11,
+   "q2": 11,
+   "excesses": 4,
+   "fitted_q3": false,
+   "fitted_q2": false
+  },
+  "ET": {
+   "q3": 11,
+   "q2": 11,
+   "excesses": 4,
+   "fitted_q3": false,
+   "fitted_q2": false
+  },
+  "LR": {
+   "q3": 0,
+   "q2": 0,
+   "excesses": 0,
+   "fitted_q3": false,
+   "fitted_q2": false
+  },
+  "MLP": {
+   "q3": 15,
+   "q2": 17312,
+   "excesses": 18,
+   "fitted_q3": true,
+   "fitted_q2": true
+  },
+  "IF": {
+   "q3": 11,
+   "q2": 11,
+   "excesses": 4,
+   "fitted_q3": false,
+   "fitted_q2": false
+  },
+  "GNN": {
+   "q3": 0,
+   "q2": 0,
+   "excesses": 0,
+   "fitted_q3": false,
+   "fitted_q2": false
+  }
+ },
+ "control_seeds": {
+  "ET": [
+   {
+    "seed": 42,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 43,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 44,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 45,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 46,
+    "alerts": 8895,
+    "excesses": 8,
+    "fitted": true
+   },
+   {
+    "seed": 47,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 48,
+    "alerts": 8888,
+    "excesses": 8,
+    "fitted": true
+   },
+   {
+    "seed": 49,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 50,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 51,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   }
+  ],
+  "RF": [
+   {
+    "seed": 42,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 43,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 44,
+    "alerts": 11,
+    "excesses": 7,
+    "fitted": false
+   },
+   {
+    "seed": 45,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 46,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 47,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 48,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 49,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 50,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   },
+   {
+    "seed": 51,
+    "alerts": 11,
+    "excesses": 4,
+    "fitted": false
+   }
+  ],
+  "GB": [
+   {
+    "seed": 42,
+    "alerts": 10,
+    "excesses": 7,
+    "fitted": true
+   },
+   {
+    "seed": 43,
+    "alerts": 2,
+    "excesses": 3,
+    "fitted": false
+   },
+   {
+    "seed": 44,
+    "alerts": 2,
+    "excesses": 3,
+    "fitted": false
+   },
+   {
+    "seed": 45,
+    "alerts": 2,
+    "excesses": 3,
+    "fitted": false
+   },
+   {
+    "seed": 46,
+    "alerts": 10,
+    "excesses": 7,
+    "fitted": true
+   },
+   {
+    "seed": 47,
+    "alerts": 3,
+    "excesses": 11,
+    "fitted": true
+   },
+   {
+    "seed": 48,
+    "alerts": 10,
+    "excesses": 7,
+    "fitted": true
+   },
+   {
+    "seed": 49,
+    "alerts": 2,
+    "excesses": 11,
+    "fitted": true
+   },
+   {
+    "seed": 50,
+    "alerts": 10,
+    "excesses": 7,
+    "fitted": true
+   },
+   {
+    "seed": 51,
+    "alerts": 6,
+    "excesses": 11,
+    "fitted": true
+   }
+  ]
+ },
+ "fold_fit": {
+  "Meter": {
+   "GB": {
+    "tp": 0,
+    "fp": 4,
+    "excesses": 4,
+    "fitted": true
+   },
+   "RF": {
+    "tp": 0,
+    "fp": 10,
+    "excesses": 4,
+    "fitted": true
+   },
+   "ET": {
+    "tp": 1,
+    "fp": 9,
+    "excesses": 4,
+    "fitted": true
+   },
+   "LR": {
+    "tp": 0,
+    "fp": 3,
+    "excesses": 4,
+    "fitted": true
+   },
+   "MLP": {
+    "tp": 1,
+    "fp": 3,
+    "excesses": 4,
+    "fitted": true
+   },
+   "IF": {
+    "tp": 0,
+    "fp": 8,
+    "excesses": 4,
+    "fitted": true
+   }
+  },
+  "Nomad": {
+   "GB": {
+    "tp": 10,
+    "fp": 1,
+    "excesses": 1,
+    "fitted": true
+   },
+   "RF": {
+    "tp": 7,
+    "fp": 1,
+    "excesses": 1,
+    "fitted": false
+   },
+   "ET": {
+    "tp": 13,
+    "fp": 2,
+    "excesses": 12,
+    "fitted": true
+   },
+   "LR": {
+    "tp": 1,
+    "fp": 18,
+    "excesses": 13,
+    "fitted": true
+   },
+   "MLP": {
+    "tp": 2,
+    "fp": 0,
+    "excesses": 13,
+    "fitted": true
+   },
+   "IF": {
+    "tp": 3,
+    "fp": 0,
+    "excesses": 13,
+    "fitted": true
+   }
+  }
+ },
+ "attacker_list_file": [
+  "nomad_2022_authentication_bypass_attackers.csv"
+ ],
+ "nomad_addresses": {
+  "list_size": 417,
+  "listed_in_linked_flows": 370,
+  "top_any_field": [
+   [
+    "0xbf293d5138",
+    201
+   ],
+   [
+    "0xb5c55f76f9",
+    42
+   ],
+   [
+    "0x56d8b635a7",
+    36
+   ],
+   [
+    "0x00000000c2",
+    35
+   ]
+  ],
+  "one_key_distinct": 372,
+  "one_key_listed": 369,
+  "one_key_not_listed": [
+   "0x6b175474e8",
+   "0x853d955ace",
+   "0xc02aaa39b2"
+  ],
+  "top_one_key": 30,
+  "top_listed_one_key": 30
+ },
+ "nomad_listed_in_library": {
+  "0xa8c83b1b30": {
+   "src_sender": 5,
+   "src_recipient": 5,
+   "dst_sender": 0,
+   "dst_recipient": 12
+  },
+  "0x2d3a838701": {
+   "src_sender": 0,
+   "src_recipient": 2,
+   "dst_sender": 0,
+   "dst_recipient": 0
+  }
+ },
+ "timing_heuristics": {
+  "Qubit": {
+   "amount_present": 0,
+   "n": 76,
+   "linked_before_public": 18,
+   "last_linked_to_public_min": 12.9,
+   "route_novelty": {
+    "first": null,
+    "benign_before": null,
+    "linked": 0,
+    "benign": 1
+   }
+  },
+  "Meter": {
+   "amount_present": 0,
+   "n": 1568,
+   "linked_before_public": 6,
+   "last_linked_to_public_min": 286.4,
+   "route_novelty": {
+    "first": "2022-02-05 14:22:55",
+    "offset_min": 0.25,
+    "lead_on_public_min": 308.8,
+    "benign_before": 0,
+    "linked": 2,
+    "benign": 0
+   }
+  },
+  "Harmony": {
+   "amount_present": 143,
+   "n": 275,
+   "linked_before_public": 12,
+   "last_linked_to_public_min": 677.5,
+   "route_novelty": {
+    "first": null,
+    "benign_before": null,
+    "linked": 0,
+    "benign": 1
+   },
+   "amount_0.1": {
+    "first": "2022-06-23 11:14:35",
+    "offset_min": 7.82,
+    "lead_on_public_min": 689.0,
+    "benign_before": 1,
+    "linked": 2,
+    "benign": 1
+   },
+   "amount_1": {
+    "first": "2022-06-23 11:14:35",
+    "offset_min": 7.82,
+    "lead_on_public_min": 689.0,
+    "benign_before": 1,
+    "linked": 4,
+    "benign": 1
+   }
+  },
+  "Nomad": {
+   "amount_present": 3672,
+   "n": 4184,
+   "linked_before_public": 11,
+   "last_linked_to_public_min": -161.7,
+   "route_novelty": {
+    "first": null,
+    "benign_before": null,
+    "linked": 0,
+    "benign": 4
+   },
+   "amount_0.1": {
+    "first": "2022-08-01 23:17:56",
+    "offset_min": 105.42,
+    "lead_on_public_min": -100.6,
+    "benign_before": 15,
+    "linked": 4,
+    "benign": 20
+   },
+   "amount_1": {
+    "first": "2022-08-01 22:22:17",
+    "offset_min": 49.77,
+    "lead_on_public_min": -44.9,
+    "benign_before": 32,
+    "linked": 30,
+    "benign": 78
+   }
+  }
+ },
+ "nomad_arrived_by_report": {
+  "spreekaway 21:37:23": 11,
+  "foobar 22:35:00": 38,
+  "The Block 23:05:20": 334,
+  "Nomad team 23:25:01": 444,
+  "Paladin 23:48:22": 612
+ },
+ "library_reused_address": {
+  "Me": {
+   "linked": 2,
+   "benign": 0,
+   "on_reused": 2,
+   "distinct": 1
+  },
+  "Ha": {
+   "linked": 276,
+   "benign": 302,
+   "on_reused": 0,
+   "distinct": 140
+  },
+  "Ha,Me": {
+   "linked": 11,
+   "benign": 27,
+   "on_reused": 1,
+   "distinct": 10
+  },
+  "Me,CS,Po,MC": {
+   "linked": 12,
+   "benign": 23,
+   "on_reused": 12,
+   "distinct": 1
+  },
+  "CS,Me,Po,MC": {
+   "linked": 12,
+   "benign": 10,
+   "on_reused": 12,
+   "distinct": 1
+  },
+  "CS,Po,MC,Qu,Me": {
+   "linked": 12,
+   "benign": 2,
+   "on_reused": 12,
+   "distinct": 1
+  },
+  "CS,Po,MC,Qu,Ha": {
+   "linked": 12,
+   "benign": 2,
+   "on_reused": 11,
+   "distinct": 2
+  },
+  "CS,Po,MC": {
+   "linked": 1,
+   "benign": 0,
+   "on_reused": 1,
+   "distinct": 1
+  },
+  "CS,Po,MC,Qu": {
+   "linked": 0,
+   "benign": 0,
+   "on_reused": 0,
+   "distinct": 0
+  },
+  "chrono6": {
+   "linked": 13,
+   "benign": 2,
+   "on_reused": 13,
+   "distinct": 1
+  }
+ },
+ "qubit_benign_sharing_tx": [
+  53,
+  58
+ ],
+ "meter_payouts": {
+  "0xd619ace8": [
+   {
+    "label": 0,
+    "t": "2022-02-05 14:37:26",
+    "sender": "0xD33966215C"
+   }
+  ],
+  "0x519a6630": [
+   {
+    "label": 0,
+    "t": "2022-02-05 15:18:37",
+    "sender": "0xD33966215C"
+   }
+  ]
+ },
+ "panels": {
+  "ChainSwap": {
+   "n": 392,
+   "amount_rows": 0,
+   "dates_with_flows": 5,
+   "calendar_days": 5,
+   "span_days": 4.8
+  },
+  "Poly": {
+   "n": 4841,
+   "amount_rows": 0,
+   "dates_with_flows": 4,
+   "calendar_days": 4,
+   "span_days": 3.5
+  },
+  "Multichain": {
+   "n": 21052,
+   "amount_rows": 21052,
+   "dates_with_flows": 3,
+   "calendar_days": 3,
+   "span_days": 2.0
+  },
+  "Qubit": {
+   "n": 76,
+   "amount_rows": 0,
+   "dates_with_flows": 2,
+   "calendar_days": 2,
+   "span_days": 0.26
+  },
+  "Meter": {
+   "n": 1568,
+   "amount_rows": 0,
+   "dates_with_flows": 5,
+   "calendar_days": 5,
+   "span_days": 4.65
+  },
+  "Harmony": {
+   "n": 275,
+   "amount_rows": 143,
+   "dates_with_flows": 5,
+   "calendar_days": 5,
+   "span_days": 4.86
+  },
+  "Nomad": {
+   "n": 4184,
+   "amount_rows": 3672,
+   "dates_with_flows": 6,
+   "calendar_days": 9,
+   "span_days": 8.24
+  }
+ },
+ "self_transfer": {
+  "linked_with_indicator": 6,
+  "benign_share": 0.279,
+  "zero_linked_keep_indicator": {
+   "rank": [
+    0,
+    7
+   ],
+   "evt": [
+    0,
+    8
+   ]
+  },
+  "zero_linked_reset_indicator": {
+   "rank": [
+    1,
+    7
+   ],
+   "evt": [
+    5,
+    8
+   ]
+  }
+ },
+ "attr_sample": {
+  "flow_index": 1032,
+  "utc": "2022-08-01 07:49",
+  "score": 0.1368,
+  "incident_linked": 0,
+  "top_factors": "amount 43%, route 41%, address 13%",
+  "shap_route": -0.15907,
+  "shap_amount": -0.16427,
+  "shap_timing": 0.01151,
+  "shap_address": -0.05135
+ }
+}

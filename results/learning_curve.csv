@@ -1,0 +1,43 @@
+library_size,library,model,ap,p_at_10,evt_tp,evt_fp,evt_precision,fixed_tp,fixed_fp
+1,ChainSwap,GB,0.1421,0.0,0,0,0.0,0,273
+1,ChainSwap,RF,0.1588,0.0,0,0,0.0,6,858
+1,ChainSwap,LR,0.1441,0.0,0,210,0.0,6,858
+1,ChainSwap,ET,0.1599,0.0,0,5,0.0,1,858
+1,ChainSwap,MLP,0.1114,0.1,1,34,0.029,7,1200
+1,ChainSwap,IF,0.239,0.0,0,54,0.0,0,0
+1,ChainSwap,GNN,0.5039,0.0,0,4,0.0,0,4
+2,ChainSwap;Poly Network,GB,0.3673,0.0,0,0,0.0,0,0
+2,ChainSwap;Poly Network,RF,0.1634,0.0,0,0,0.0,0,0
+2,ChainSwap;Poly Network,LR,0.2395,0.0,0,47,0.0,599,1841
+2,ChainSwap;Poly Network,ET,0.164,0.0,0,0,0.0,0,0
+2,ChainSwap;Poly Network,MLP,0.1725,0.0,0,7,0.0,0,0
+2,ChainSwap;Poly Network,IF,0.2392,0.0,0,43,0.0,0,0
+2,ChainSwap;Poly Network,GNN,0.1618,0.0,0,11,0.0,68,776
+3,ChainSwap;Poly Network;Multichain,GB,0.218,0.0,0,18,0.0,0,0
+3,ChainSwap;Poly Network;Multichain,RF,0.1617,0.0,0,1,0.0,0,0
+3,ChainSwap;Poly Network;Multichain,LR,0.1189,0.1,1,19,0.05,7,1148
+3,ChainSwap;Poly Network;Multichain,ET,0.1386,0.1,1,0,1.0,0,0
+3,ChainSwap;Poly Network;Multichain,MLP,0.156,0.0,0,0,0.0,0,2
+3,ChainSwap;Poly Network;Multichain,IF,0.2225,0.3,5,18,0.217,0,0
+3,ChainSwap;Poly Network;Multichain,GNN,0.1233,0.0,0,10,0.0,0,8
+4,ChainSwap;Poly Network;Multichain;Qubit,GB,0.3216,0.1,1,7,0.125,0,0
+4,ChainSwap;Poly Network;Multichain;Qubit,RF,0.1639,0.0,0,0,0.0,0,0
+4,ChainSwap;Poly Network;Multichain;Qubit,LR,0.1101,0.1,1,19,0.05,7,1148
+4,ChainSwap;Poly Network;Multichain;Qubit,ET,0.2071,0.0,0,0,0.0,0,0
+4,ChainSwap;Poly Network;Multichain;Qubit,MLP,0.2141,0.2,2,0,1.0,0,0
+4,ChainSwap;Poly Network;Multichain;Qubit,IF,0.1516,0.1,1,28,0.034,0,0
+4,ChainSwap;Poly Network;Multichain;Qubit,GNN,0.1395,0.0,0,7,0.0,0,2
+5,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport,GB,0.1463,0.3,3,2,0.6,0,1
+5,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport,RF,0.1571,0.0,0,1,0.0,0,0
+5,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport,LR,0.1298,0.1,1,19,0.05,10,1433
+5,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport,ET,0.199,0.9,12,2,0.857,0,0
+5,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport,MLP,0.144,0.0,0,28,0.0,0,0
+5,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport,IF,0.1259,0.3,2,9,0.182,0,0
+5,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport,GNN,0.1237,0.0,0,13,0.0,0,3
+6,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport;Harmony Horizon,GB,0.1515,0.9,10,1,0.909,4,1
+6,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport;Harmony Horizon,RF,0.1579,0.9,7,1,0.875,0,0
+6,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport;Harmony Horizon,LR,0.1707,0.1,1,18,0.053,10,1423
+6,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport;Harmony Horizon,ET,0.2041,0.9,13,2,0.867,0,0
+6,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport;Harmony Horizon,MLP,0.204,0.2,2,0,1.0,0,0
+6,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport;Harmony Horizon,IF,0.1347,0.5,3,0,1.0,0,0
+6,ChainSwap;Poly Network;Multichain;Qubit;Meter Passport;Harmony Horizon,GNN,0.169,0.0,0,8,0.0,0,2

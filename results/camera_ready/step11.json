@@ -1,0 +1,277 @@
+{
+ "src_sender": {
+  "n": 5,
+  "linked": 0,
+  "cases": {
+   "multichain_2022_authentication_bypass": 5
+  }
+ },
+ "dst_recipient": {
+  "n": 12,
+  "linked": 0,
+  "cases": {
+   "multichain_2022_authentication_bypass": 12
+  }
+ },
+ "src_recipient": {
+  "n": 5,
+  "linked": 0,
+  "cases": {
+   "multichain_2022_authentication_bypass": 5
+  }
+ },
+ "dst_sender": {
+  "n": 0,
+  "linked": 0,
+  "cases": {}
+ },
+ "freq": {
+  "sender": 5,
+  "recipient": 12
+ },
+ "nomad_attackers_in_library": {
+  "total": 373,
+  "in_library": 1
+ },
+ "overlap_top": [
+  [
+   "0xa8c83b1b",
+   5,
+   12,
+   36
+  ]
+ ],
+ "alerted_features": [
+  {
+   "route": "avalanche->ethereum",
+   "src_sender_freq": 0.0,
+   "dst_recipient_freq": 12.0,
+   "sender_recipient_equal": 0.0,
+   "log_src_amount": 0.0,
+   "log_dst_amount": 46.68,
+   "log_lag_seconds": 0.0
+  },
+  {
+   "route": "avalanche->ethereum",
+   "src_sender_freq": 0.0,
+   "dst_recipient_freq": 12.0,
+   "sender_recipient_equal": 0.0,
+   "log_src_amount": 0.0,
+   "log_dst_amount": 46.75,
+   "log_lag_seconds": 0.0
+  },
+  {
+   "route": "avalanche->ethereum",
+   "src_sender_freq": 0.0,
+   "dst_recipient_freq": 12.0,
+   "sender_recipient_equal": 0.0,
+   "log_src_amount": 0.0,
+   "log_dst_amount": 40.49,
+   "log_lag_seconds": 0.0
+  },
+  {
+   "route": "ethereum->moonbeam",
+   "src_sender_freq": 5.0,
+   "dst_recipient_freq": 12.0,
+   "sender_recipient_equal": 1.0,
+   "log_src_amount": 0.0,
+   "log_dst_amount": 13.82,
+   "log_lag_seconds": 7.83
+  },
+  {
+   "route": "moonbeam->ethereum",
+   "src_sender_freq": 0.0,
+   "dst_recipient_freq": 12.0,
+   "sender_recipient_equal": 0.0,
+   "log_src_amount": 0.0,
+   "log_dst_amount": 23.03,
+   "log_lag_seconds": 0.0
+  },
+  {
+   "route": "ethereum->moonbeam",
+   "src_sender_freq": 5.0,
+   "dst_recipient_freq": 12.0,
+   "sender_recipient_equal": 1.0,
+   "log_src_amount": 0.0,
+   "log_dst_amount": 13.82,
+   "log_lag_seconds": 4.8
+  },
+  {
+   "route": "moonbeam->ethereum",
+   "src_sender_freq": 0.0,
+   "dst_recipient_freq": 12.0,
+   "sender_recipient_equal": 0.0,
+   "log_src_amount": 0.0,
+   "log_dst_amount": 19.52,
+   "log_lag_seconds": 0.0
+  },
+  {
+   "route": "moonbeam->ethereum",
+   "src_sender_freq": 0.0,
+   "dst_recipient_freq": 12.0,
+   "sender_recipient_equal": 0.0,
+   "log_src_amount": 0.0,
+   "log_dst_amount": 46.74,
+   "log_lag_seconds": 0.0
+  },
+  {
+   "route": "moonbeam->ethereum",
+   "src_sender_freq": 0.0,
+   "dst_recipient_freq": 12.0,
+   "sender_recipient_equal": 0.0,
+   "log_src_amount": 0.0,
+   "log_dst_amount": 46.05,
+   "log_lag_seconds": 0.0
+  }
+ ],
+ "linked_means": {
+  "src_sender_freq": 0.179,
+  "dst_recipient_freq": 0.273,
+  "sender_recipient_equal": 0.01
+ },
+ "linked_freq_pos": 30,
+ "benign_means": {
+  "src_sender_freq": 0.031,
+  "dst_recipient_freq": 0.003,
+  "sender_recipient_equal": 0.279
+ },
+ "benign_freq_pos": 28,
+ "scores_alerted": [
+  0.137,
+  0.137,
+  0.139,
+  0.175,
+  0.208,
+  0.168,
+  0.195,
+  0.225,
+  0.23
+ ],
+ "top_shared_Meter": [
+  [
+   "0xd33966215c",
+   417
+  ],
+  [
+   "0xf6c75ea68b",
+   397
+  ],
+  [
+   "0xbe53970753",
+   192
+  ],
+  [
+   "0x2b553c1f70",
+   186
+  ]
+ ],
+ "top_shared_Harmony": [
+  [
+   "0x812d8622c6",
+   107
+  ],
+  [
+   "0xb118b3479d",
+   22
+  ],
+  [
+   "0x0d04312814",
+   12
+  ],
+  [
+   "0x755acb01db",
+   11
+  ]
+ ],
+ "top_shared_Nomad": [
+  [
+   "0x776a9097e0",
+   846
+  ],
+  [
+   "0x2d6775c167",
+   796
+  ],
+  [
+   "0xbf293d5138",
+   201
+  ],
+  [
+   "0xa8ecaf8745",
+   50
+  ]
+ ],
+ "flood_run": {
+  "start": 11476,
+  "length": 8890,
+  "end": 20365,
+  "n": 20366,
+  "plateau": 0.0053013798961004934,
+  "alerted_below_plateau": 7
+ },
+ "npdt": {
+  "ET": [
+   15,
+   15,
+   15,
+   15,
+   15,
+   15,
+   15,
+   15,
+   15,
+   15
+  ],
+  "RF": [
+   15,
+   15,
+   15,
+   15,
+   15,
+   15,
+   15,
+   15,
+   15,
+   15
+  ],
+  "GB": [
+   16,
+   5,
+   5,
+   5,
+   20,
+   14,
+   14,
+   9,
+   20,
+   21
+  ],
+  "order": {
+   "chrono": {
+    "ET": 15,
+    "RF": 15,
+    "GB": 16
+   },
+   "meter-first": {
+    "ET": 15,
+    "RF": 15,
+    "GB": 5
+   },
+   "meter-last": {
+    "ET": 15,
+    "RF": 15,
+    "GB": 9
+   },
+   "reversed": {
+    "ET": 15,
+    "RF": 15,
+    "GB": 5
+   },
+   "nomad-first": {
+    "ET": 15,
+    "RF": 15,
+    "GB": 20
+   }
+  }
+ }
+}
